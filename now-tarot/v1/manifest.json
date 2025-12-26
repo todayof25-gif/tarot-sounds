@@ -1,0 +1,43 @@
+{
+  "version": 2,
+  "featured": ["true_feelings", "reunion_chance", "destined_2026"],
+  "stories": [
+    {
+      "id": "true_feelings",
+      "masterId": "eunwoo",
+      "category": "love",
+      "interestCount": 84320,
+      "cutCount": 10,
+      "titles": {
+        "kr": "그 사람의 진짜 속마음, 나를 어떻게 생각할까?",
+        "en": "그 사람의 진짜 속마음, 나를 어떻게 생각할까?",
+        "ja": "그 사람의 진짜 속마음, 나를 어떻게 생각할까?"
+      }
+    },
+    {
+      "id": "reunion_chance",
+      "masterId": "pixel",
+      "category": "love",
+      "interestCount": 71200,
+      "cutCount": 9,
+      "titles": {
+        "kr": "다시 전 연인한테 연락이 올까요?(신규)",
+        "en": "다시 전 연인한테 연락이 올까요?(신규)",
+        "ja": "다시 전 연인한테 연락이 올까요?(신규)"
+      }
+    },
+    {
+      "id": "destined_2026",
+      "masterId": "luna",
+      "category": "love",
+      "interestCount": 66800,
+      "cutCount": 8,
+      "titles": {
+        "kr": "2026년 새로 찾아올 인연이 있을까? (신규)",
+        "en": "2026년 새로 찾아올 인연이 있을까? (신규)",
+        "ja": "2026년 새로 찾아올 인연이 있을까? (신규)"
+      }
+    }
+  ]
+}
+
