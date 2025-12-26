@@ -42,9 +42,32 @@
             "ja": "第1話 - メジャーアルカナって何？"
           },
           "epigraphs": {
-            "kr": "운명의 문이 열릴 때, 마음은 먼저 흔들린다.",
-            "en": "When fate stirs, the heart answers first.",
-            "ja": "運命が動くとき、心が先に答える。"
+            "kr": "운명은 카드가 뒤집힐 때 시작된다.",
+            "en": "Fate begins when a card turns over.",
+            "ja": "運命はカードがめくられた瞬間に始まる。"
+          },
+          "epigraphSlots": {
+            "kr": [
+              "운명은 카드가 뒤집힐 때 시작된다.",
+              "망설임이 길수록 선택은 더 조용해진다.",
+              "눈을 감아도 마음은 이미 한 장을 골랐다.",
+              "흔들리는 건 길이 아니라 나의 용기다.",
+              "답은 멀지 않다, 오늘의 한 장이 말해준다."
+            ],
+            "en": [
+              "Fate begins when a card turns over.",
+              "The longer you hesitate, the quieter your choice becomes.",
+              "Even with eyes closed, the heart has already chosen.",
+              "What wavers is not the path, but your courage.",
+              "The answer is near; today's card speaks."
+            ],
+            "ja": [
+              "運命はカードがめくられた瞬間に始まる。",
+              "迷いが長いほど、選択は静かになる。",
+              "目を閉じても、心はもう一枚を選んでいる。",
+              "揺れているのは道ではなく、勇気だ。",
+              "答えは遠くない、今日の一枚が語る。"
+            ]
           }
         },
         {
@@ -62,6 +85,11 @@
             "kr": "한 장의 바보가, 선택의 용기를 시험한다.",
             "en": "The Fool tests your courage to choose.",
             "ja": "愚者は選ぶ勇気を試す。"
+          },
+          "epigraphSlots": {
+            "kr": ["한 장의 바보가, 선택의 용기를 시험한다."],
+            "en": ["The Fool tests your courage to choose."],
+            "ja": ["愚者は選ぶ勇気を試す。"]
           }
         }
       ]
@@ -109,6 +137,11 @@
             "kr": "그의 침묵엔 이미 답이 있다.",
             "en": "His silence already holds an answer.",
             "ja": "沈黙の中に、答えはある。"
+          },
+          "epigraphSlots": {
+            "kr": ["그의 침묵엔 이미 답이 있다."],
+            "en": ["His silence already holds an answer."],
+            "ja": ["沈黙の中に、答えはある。"]
           }
         }
       ]
@@ -156,6 +189,11 @@
             "kr": "달이 뜨면, 마음의 문이 열린다.",
             "en": "When the moon rises, the heart's door opens.",
             "ja": "月が昇ると、心の扉が開く。"
+          },
+          "epigraphSlots": {
+            "kr": ["달이 뜨면, 마음의 문이 열린다."],
+            "en": ["When the moon rises, the heart's door opens."],
+            "ja": ["月が昇ると、心の扉が開く。"]
           }
         }
       ]
@@ -203,6 +241,11 @@
             "kr": "츄르가 모자라면, 운도 모자란 법.",
             "en": "When churu runs low, luck follows.",
             "ja": "ちゅ〜るが足りないと、運も足りない。"
+          },
+          "epigraphSlots": {
+            "kr": ["츄르가 모자라면, 운도 모자란 법."],
+            "en": ["When churu runs low, luck follows."],
+            "ja": ["ちゅ〜るが足りないと、運も足りない。"]
           }
         }
       ]

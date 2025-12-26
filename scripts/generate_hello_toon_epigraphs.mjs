@@ -4,6 +4,7 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 
 const SUPPORTED_LOCALES = ['kr', 'en', 'ja'];
+const MAX_ATTEMPTS = 3;
 
 function usage() {
   return `\
@@ -15,8 +16,9 @@ Defaults:
   model: gemini-2.5-flash-lite (override with GEMINI_MODEL)
 
 Notes:
-  - Fills missing epigraphs for locales: ${SUPPORTED_LOCALES.join(', ')}
-  - Writes epigraphs into manifest.json (server-fixed, shared by all users).
+  - Fills missing epigraph slots for locales: ${SUPPORTED_LOCALES.join(', ')}
+  - Slot count is derived from cutCount: ceil(cutCount / 2)
+  - Writes epigraphSlots into manifest.json (server-fixed, shared by all users).
 `;
 }
 
@@ -55,6 +57,7 @@ function normalizeEpigraph(raw) {
   if (!line) return null;
 
   line = line.split(/[\r\n]+/g)[0].trim();
+  line = line.replace(/^\d+[.)]\s*/g, '').trim();
   line = line.replace(/^[-•\s]+/g, '').trim();
 
   // Strip quotes.
@@ -70,6 +73,40 @@ function normalizeEpigraph(raw) {
   if (!line) return null;
   if (line.length > 120) return null;
   return line;
+}
+
+function uniquePreserveOrder(lines) {
+  const out = [];
+  const seen = new Set();
+  for (const line of lines) {
+    if (seen.has(line)) continue;
+    seen.add(line);
+    out.push(line);
+  }
+  return out;
+}
+
+function slotCountForCutCount(cutCount) {
+  const n = Number(cutCount);
+  if (!Number.isFinite(n) || n <= 0) return 0;
+  return Math.ceil(n / 2);
+}
+
+function parseEpigraphSlotCandidates(raw) {
+  const text = String(raw ?? '').trim();
+  if (!text) return [];
+
+  try {
+    const parsed = JSON.parse(text);
+    if (Array.isArray(parsed)) return parsed.map((v) => String(v ?? '').trim());
+  } catch (_) {
+    // fall back to line splitting
+  }
+
+  return text
+    .split(/[\r\n]+/g)
+    .map((l) => l.trim())
+    .filter(Boolean);
 }
 
 async function generateWithGemini({ apiKey, modelId, systemInstruction, prompt }) {
@@ -107,7 +144,7 @@ async function generateWithGemini({ apiKey, modelId, systemInstruction, prompt }
   return text || null;
 }
 
-function buildPrompt({ locale, toon, episode }) {
+function buildPrompt({ locale, toon, episode, slotCount }) {
   const language = languageLabel(locale);
   const title = toon?.titles?.[locale] ?? toon?.titles?.en ?? toon?.id ?? '';
   const description =
@@ -125,19 +162,50 @@ Context:
 - Episode title: ${episodeTitle}
 
 TASK:
-Write ONE short epigraph sentence for this episode.
+Write ${slotCount} distinct epigraph sentences for this episode.
 
 STYLE:
 - Tarot / fortune vibe, calm and elegant.
 - Avoid clichés and generic motivational quotes.
 - Do NOT include the series title or episode title verbatim.
+- Each line must be different from the others.
 
 FORMAT (STRICT):
-- Exactly one sentence, one line.
-- Output ONLY the sentence. No extra labels.
-- No quotes, no surrounding ellipses, no emojis, no hashtags.
-- Keep it concise (about <= 12 words, or <= 45 characters).
+- Output ONLY a JSON array of exactly ${slotCount} strings.
+- No extra keys, no markdown, no code fences.
+- Each string must be exactly one sentence, one line.
+- No surrounding ellipses, no emojis, no hashtags.
+- Keep each sentence concise (about <= 12 words, or <= 45 characters).
 `;
+}
+
+async function generateEpigraphSlots({
+  apiKey,
+  modelId,
+  systemInstruction,
+  prompt,
+  slotCount,
+}) {
+  for (let attempt = 1; attempt <= MAX_ATTEMPTS; attempt++) {
+    const text = await generateWithGemini({
+      apiKey,
+      modelId,
+      systemInstruction,
+      prompt,
+    });
+
+    const candidates = parseEpigraphSlotCandidates(text);
+    const normalized = uniquePreserveOrder(
+      candidates.map(normalizeEpigraph).filter(Boolean),
+    );
+
+    if (normalized.length >= slotCount) return normalized.slice(0, slotCount);
+    console.warn(
+      `[warn] not enough valid slots (${normalized.length}/${slotCount}), attempt ${attempt}/${MAX_ATTEMPTS}`,
+    );
+  }
+
+  return null;
 }
 
 async function main() {
@@ -167,9 +235,10 @@ async function main() {
 You write short poetic epigraph lines for a tarot-themed webtoon viewer.
 
 CRITICAL OUTPUT RULES:
-- Output ONLY the epigraph sentence (user-visible plain text).
-- Exactly one line. No newlines.
-- No quotes, no surrounding ellipses, no emojis, no hashtags.
+- Output ONLY the requested JSON array of strings.
+- No extra keys, no markdown, no code fences.
+- Each string must be one sentence, one line (no newlines inside).
+- No surrounding ellipses, no emojis, no hashtags.
 - Always respond in the requested language.
 `;
 
@@ -177,40 +246,60 @@ CRITICAL OUTPUT RULES:
     const episodes = Array.isArray(toon?.episodes) ? toon.episodes : [];
     for (const episode of episodes) {
       if (typeof episode !== 'object' || episode == null) continue;
+      const slotCount = slotCountForCutCount(episode.cutCount);
+      if (slotCount <= 0) continue;
+
+      episode.epigraphSlots ??= {};
       episode.epigraphs ??= {};
 
       for (const locale of SUPPORTED_LOCALES) {
-        const current = String(episode.epigraphs?.[locale] ?? '').trim();
-        if (current) continue;
+        const existingRaw = episode.epigraphSlots?.[locale];
+        const existing = Array.isArray(existingRaw)
+          ? uniquePreserveOrder(
+              existingRaw.map(normalizeEpigraph).filter(Boolean),
+            )
+          : [];
 
-        const prompt = buildPrompt({ locale, toon, episode });
+        if (existing.length >= slotCount) {
+          // Normalize/truncate in place.
+          episode.epigraphSlots[locale] = existing.slice(0, slotCount);
+          if (!String(episode.epigraphs?.[locale] ?? '').trim()) {
+            episode.epigraphs[locale] = episode.epigraphSlots[locale][0];
+            changed = true;
+          }
+          continue;
+        }
+
+        const prompt = buildPrompt({ locale, toon, episode, slotCount });
         console.log(
-          `[gen] toon=${toon.id} episode=${episode.id} locale=${locale} model=${modelId}`,
+          `[gen] toon=${toon.id} episode=${episode.id} locale=${locale} slots=${slotCount} model=${modelId}`,
         );
 
-        const text = await generateWithGemini({
+        const slots = await generateEpigraphSlots({
           apiKey,
           modelId,
           systemInstruction,
           prompt,
+          slotCount,
         });
-
-        const normalized = normalizeEpigraph(text);
-        if (!normalized) {
+        if (!slots) {
           console.warn(
-            `[warn] empty/invalid output (toon=${toon.id} episode=${episode.id} locale=${locale})`,
+            `[warn] empty/invalid slots (toon=${toon.id} episode=${episode.id} locale=${locale})`,
           );
           continue;
         }
 
-        episode.epigraphs[locale] = normalized;
+        episode.epigraphSlots[locale] = slots;
+        if (!String(episode.epigraphs?.[locale] ?? '').trim()) {
+          episode.epigraphs[locale] = slots[0];
+        }
         changed = true;
       }
     }
   }
 
   if (!changed) {
-    console.log('[ok] No missing epigraphs.');
+    console.log('[ok] No missing epigraph slots.');
     return;
   }
 
