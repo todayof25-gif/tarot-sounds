@@ -9,11 +9,12 @@ const MAX_ATTEMPTS = 3;
 function usage() {
   return `\
 Usage:
-  GEMINI_API_KEY=... node scripts/generate_hello_toon_epigraphs.mjs [--manifest <path>] [--dry-run]
+  GEMINI_API_KEY=... node scripts/generate_hello_toon_epigraphs.mjs [--manifest <path>] [--locale <kr|en|ja>] [--dry-run]
 
 Defaults:
   --manifest hello-toon/v1/manifest.json
   model: gemini-2.5-flash-lite (override with GEMINI_MODEL)
+  locales: kr, en, ja (omit --locale)
 
 Notes:
   - Fills missing epigraph slots for locales: ${SUPPORTED_LOCALES.join(', ')}
@@ -23,7 +24,7 @@ Notes:
 }
 
 function parseArgs(argv) {
-  const args = { manifest: 'hello-toon/v1/manifest.json', dryRun: false };
+  const args = { manifest: 'hello-toon/v1/manifest.json', dryRun: false, locales: null };
   for (let i = 2; i < argv.length; i++) {
     const a = argv[i];
     if (a === '--help' || a === '-h') args.help = true;
@@ -32,6 +33,23 @@ function parseArgs(argv) {
       const v = argv[++i];
       if (!v) throw new Error('Missing value for --manifest');
       args.manifest = v;
+    } else if (a === '--locale') {
+      const v = argv[++i];
+      if (!v) throw new Error('Missing value for --locale');
+
+      const raw = v.trim();
+      const parts = raw.split(',').map((s) => s.trim()).filter(Boolean);
+      if (parts.length === 0) throw new Error('Missing value for --locale');
+
+      args.locales ??= [];
+      for (const code of parts) {
+        if (!SUPPORTED_LOCALES.includes(code)) {
+          throw new Error(
+            `Unsupported locale: ${code} (supported: ${SUPPORTED_LOCALES.join(', ')})`,
+          );
+        }
+        if (!args.locales.includes(code)) args.locales.push(code);
+      }
     } else {
       throw new Error(`Unknown arg: ${a}`);
     }
@@ -224,6 +242,7 @@ async function main() {
 
   const modelId = (process.env.GEMINI_MODEL || 'gemini-2.5-flash-lite').trim();
   const manifestPath = path.resolve(process.cwd(), args.manifest);
+  const locales = args.locales?.length ? args.locales : SUPPORTED_LOCALES;
 
   const raw = await fs.readFile(manifestPath, 'utf8');
   const manifest = JSON.parse(raw);
@@ -252,7 +271,7 @@ CRITICAL OUTPUT RULES:
       episode.epigraphSlots ??= {};
       episode.epigraphs ??= {};
 
-      for (const locale of SUPPORTED_LOCALES) {
+      for (const locale of locales) {
         const existingRaw = episode.epigraphSlots?.[locale];
         const existing = Array.isArray(existingRaw)
           ? uniquePreserveOrder(
