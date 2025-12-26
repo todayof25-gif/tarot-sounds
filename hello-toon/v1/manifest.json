@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "featured": ["toon1"],
+  "featured": ["toon1", "toon2", "toon3", "toon4"],
   "toons": [
     {
       "id": "toon1",
@@ -8,15 +8,25 @@
       "isUp": true,
       "author": "타은우 x 그림작가 J",
       "genre": "에듀툰/일상",
+      "authors": {
+        "kr": "타은우 x 그림작가 J",
+        "en": "Ta Eun-woo x Artist J",
+        "ja": "タ・ウンウ × 作画J"
+      },
+      "genres": {
+        "kr": "에듀툰/일상",
+        "en": "Edu / Daily Life",
+        "ja": "教育/日常"
+      },
       "titles": {
         "kr": "황제의 타로 수업",
-        "en": "Emperor's Tarot Class",
+        "en": "The Emperor's Tarot Lessons",
         "ja": "皇帝のタロット授業"
       },
       "descriptions": {
         "kr": "타로가 처음이라고요? 까칠한 타은우가 알려주는 기초 타로 상식!",
-        "en": "New to tarot? Eunwoo teaches you the basics—with a sharp tongue.",
-        "ja": "タロット初心者？辛口のウンウが基礎を教えるエデュトゥーン。"
+        "en": "New to tarot? The prickly Ta Eun-woo teaches the basics!",
+        "ja": "タロット初心者？ツンなウンウが基礎を教える！"
       },
       "coverEpisodeId": "ep1",
       "episodes": [
@@ -28,13 +38,171 @@
           "cutCount": 10,
           "titles": {
             "kr": "1화 - 메이저 아르카나가 뭐야?",
-            "en": "Ep.1 - What is Major Arcana?",
+            "en": "Ep.1 - What are the Major Arcana?",
             "ja": "第1話 - メジャーアルカナって何？"
           },
           "epigraphs": {
             "kr": "운명의 문이 열릴 때, 마음은 먼저 흔들린다.",
             "en": "When fate stirs, the heart answers first.",
             "ja": "運命が動くとき、心が先に答える。"
+          }
+        },
+        {
+          "id": "ep2",
+          "date": "2023.10.27",
+          "likes": 980,
+          "rating": 9.7,
+          "cutCount": 2,
+          "titles": {
+            "kr": "2화 - 바보(The Fool) 카드의 비밀",
+            "en": "Ep.2 - The Secret of The Fool Card",
+            "ja": "第2話 - 愚者(The Fool)カードの秘密"
+          },
+          "epigraphs": {
+            "kr": "한 장의 바보가, 선택의 용기를 시험한다.",
+            "en": "The Fool tests your courage to choose.",
+            "ja": "愚者は選ぶ勇気を試す。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "toon2",
+      "isNew": false,
+      "isUp": true,
+      "author": "타리나",
+      "genre": "로맨스",
+      "authors": {
+        "kr": "타리나",
+        "en": "Tarina",
+        "ja": "タリナ"
+      },
+      "genres": {
+        "kr": "로맨스",
+        "en": "Romance",
+        "ja": "ロマンス"
+      },
+      "titles": {
+        "kr": "연애의 정방향",
+        "en": "Love in Upright",
+        "ja": "恋の正位置"
+      },
+      "descriptions": {
+        "kr": "짝사랑 성공 확률 0%? 타로카드로 운명을 바꾸는 로맨스 웹툰",
+        "en": "0% chance for a crush? A romance webtoon that changes fate with tarot.",
+        "ja": "片思い成功率0%？タロットで運命を変えるロマンス"
+      },
+      "coverEpisodeId": "ep1",
+      "episodes": [
+        {
+          "id": "ep1",
+          "date": "2023.11.01",
+          "likes": 2400,
+          "rating": 9.9,
+          "cutCount": 1,
+          "titles": {
+            "kr": "1화 - 그 남자의 속마음",
+            "en": "Ep.1 - His true feelings",
+            "ja": "第1話 - 彼の本音"
+          },
+          "epigraphs": {
+            "kr": "그의 침묵엔 이미 답이 있다.",
+            "en": "His silence already holds an answer.",
+            "ja": "沈黙の中に、答えはある。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "toon3",
+      "isNew": false,
+      "isUp": false,
+      "author": "세라피나",
+      "genre": "힐링/미스터리",
+      "authors": {
+        "kr": "세라피나",
+        "en": "Seraphina",
+        "ja": "セラフィナ"
+      },
+      "genres": {
+        "kr": "힐링/미스터리",
+        "en": "Healing / Mystery",
+        "ja": "癒し/ミステリー"
+      },
+      "titles": {
+        "kr": "밤 12시의 상담소",
+        "en": "Midnight Counseling Room",
+        "ja": "夜12時の相談所"
+      },
+      "descriptions": {
+        "kr": "지친 영혼들을 위로하는 미스터리 치유물. 당신의 이야기도 들려주세요.",
+        "en": "A mysterious healing story that comforts tired souls. Tell your story.",
+        "ja": "疲れた魂を癒すミステリーヒーリング。あなたの話も聞かせて。"
+      },
+      "coverEpisodeId": "ep1",
+      "episodes": [
+        {
+          "id": "ep1",
+          "date": "2023.09.15",
+          "likes": 1500,
+          "rating": 9.9,
+          "cutCount": 1,
+          "titles": {
+            "kr": "1화 - 달이 뜨면 문이 열린다",
+            "en": "Ep.1 - When the moon rises, the door opens",
+            "ja": "第1話 - 月が昇ると扉が開く"
+          },
+          "epigraphs": {
+            "kr": "달이 뜨면, 마음의 문이 열린다.",
+            "en": "When the moon rises, the heart's door opens.",
+            "ja": "月が昇ると、心の扉が開く。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "toon4",
+      "isNew": false,
+      "isUp": false,
+      "author": "냥냥펀치",
+      "genre": "개그/동물",
+      "authors": {
+        "kr": "냥냥펀치",
+        "en": "NyangNyang Punch",
+        "ja": "ニャンニャンパンチ"
+      },
+      "genres": {
+        "kr": "개그/동물",
+        "en": "Comedy / Animals",
+        "ja": "ギャグ/動物"
+      },
+      "titles": {
+        "kr": "오늘의 운세 냥이",
+        "en": "Today's Fortune Cat",
+        "ja": "今日の運勢にゃん"
+      },
+      "descriptions": {
+        "kr": "귀여운 고양이가 점쳐주는 하루! 매일매일 확인하세요.",
+        "en": "A cute cat tells your day! Check in every day.",
+        "ja": "可愛い猫が占う一日！毎日チェックしてね。"
+      },
+      "coverEpisodeId": "ep1",
+      "episodes": [
+        {
+          "id": "ep1",
+          "date": "2023.11.05",
+          "likes": 5000,
+          "rating": 10.0,
+          "cutCount": 1,
+          "titles": {
+            "kr": "1화 - 츄르가 모자라",
+            "en": "Ep.1 - Not enough Churu",
+            "ja": "第1話 - ちゅ〜るが足りない"
+          },
+          "epigraphs": {
+            "kr": "츄르가 모자라면, 운도 모자란 법.",
+            "en": "When churu runs low, luck follows.",
+            "ja": "ちゅ〜るが足りないと、運も足りない。"
           }
         }
       ]
