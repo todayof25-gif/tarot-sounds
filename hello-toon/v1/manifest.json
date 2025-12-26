@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "featured": ["toon1"],
+  "toons": [
+    {
+      "id": "toon1",
+      "isNew": true,
+      "isUp": true,
+      "author": "타은우 x 그림작가 J",
+      "genre": "에듀툰/일상",
+      "titles": {
+        "kr": "황제의 타로 수업",
+        "en": "Emperor's Tarot Class",
+        "ja": "皇帝のタロット授業"
+      },
+      "descriptions": {
+        "kr": "타로가 처음이라고요? 까칠한 타은우가 알려주는 기초 타로 상식!",
+        "en": "New to tarot? Eunwoo teaches you the basics—with a sharp tongue.",
+        "ja": "タロット初心者？辛口のウンウが基礎を教えるエデュトゥーン。"
+      },
+      "coverEpisodeId": "ep1",
+      "episodes": [
+        {
+          "id": "ep1",
+          "date": "2023.10.20",
+          "likes": 1240,
+          "rating": 9.8,
+          "cutCount": 10,
+          "titles": {
+            "kr": "1화 - 메이저 아르카나가 뭐야?",
+            "en": "Ep.1 - What is Major Arcana?",
+            "ja": "第1話 - メジャーアルカナって何？"
+          },
+          "epigraphs": {
+            "kr": "운명의 문이 열릴 때, 마음은 먼저 흔들린다.",
+            "en": "When fate stirs, the heart answers first.",
+            "ja": "運命が動くとき、心が先に答える。"
+          }
+        }
+      ]
+    }
+  ]
+}
