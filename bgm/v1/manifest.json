@@ -1,0 +1,305 @@
+{
+  "version": 1,
+  "tracks": [
+    {
+      "id": "all_entwined_en",
+      "lang": "en",
+      "title": "All Entwined",
+      "artist": "HelloTarot",
+      "audio": "en/all_entwined_en.mp3",
+      "cover": "covers/all_entwined_en.webp",
+      "durationSec": 143,
+      "duration": "2:23"
+    },
+    {
+      "id": "destiny_in_the_cards_en",
+      "lang": "en",
+      "title": "Destiny in the Cards",
+      "artist": "HelloTarot",
+      "audio": "en/destiny_in_the_cards_en.mp3",
+      "cover": "covers/destiny_in_the_cards_en.webp",
+      "durationSec": 179,
+      "duration": "2:59"
+    },
+    {
+      "id": "little_mirrors_en",
+      "lang": "en",
+      "title": "Little Mirrors",
+      "artist": "HelloTarot",
+      "audio": "en/little_mirrors_en.mp3",
+      "cover": "covers/little_mirrors_en.webp",
+      "durationSec": 166,
+      "duration": "2:46"
+    },
+    {
+      "id": "major_arcana_heartbeat_en",
+      "lang": "en",
+      "title": "Major Arcana Heartbeat",
+      "artist": "HelloTarot",
+      "audio": "en/major_arcana_heartbeat_en.mp3",
+      "cover": "covers/major_arcana_heartbeat_en.webp",
+      "durationSec": 126,
+      "duration": "2:06"
+    },
+    {
+      "id": "midnight_arcana_en",
+      "lang": "en",
+      "title": "Midnight Arcana",
+      "artist": "HelloTarot",
+      "audio": "en/midnight_arcana_en.mp3",
+      "cover": "covers/_default.webp",
+      "durationSec": 170,
+      "duration": "2:50"
+    },
+    {
+      "id": "reading_my_soul_en",
+      "lang": "en",
+      "title": "Reading My Soul",
+      "artist": "HelloTarot",
+      "audio": "en/reading_my_soul_en.mp3",
+      "cover": "covers/reading_my_soul_en.webp",
+      "durationSec": 210,
+      "duration": "3:30"
+    },
+    {
+      "id": "run_through_the_static_en",
+      "lang": "en",
+      "title": "Run Through The Static",
+      "artist": "HelloTarot",
+      "audio": "en/run_through_the_static_en.mp3",
+      "cover": "covers/run_through_the_static_en.webp",
+      "durationSec": 221,
+      "duration": "3:41"
+    },
+    {
+      "id": "shuffle_my_heart_en",
+      "lang": "en",
+      "title": "Shuffle My Heart",
+      "artist": "HelloTarot",
+      "audio": "en/shuffle_my_heart_en.mp3",
+      "cover": "covers/shuffle_my_heart_en.webp",
+      "durationSec": 114,
+      "duration": "1:54"
+    },
+    {
+      "id": "the_hermit_s_lantern_en",
+      "lang": "en",
+      "title": "The Hermit’s Lantern",
+      "artist": "HelloTarot",
+      "audio": "en/the_hermit_s_lantern_en.mp3",
+      "cover": "covers/the_hermit_s_lantern_en.webp",
+      "durationSec": 145,
+      "duration": "2:25"
+    },
+    {
+      "id": "the_stars_aligned_en",
+      "lang": "en",
+      "title": "The Stars Aligned",
+      "artist": "HelloTarot",
+      "audio": "en/the_stars_aligned_en.mp3",
+      "cover": "covers/the_stars_aligned_en.webp",
+      "durationSec": 214,
+      "duration": "3:34"
+    },
+    {
+      "id": "reading_my_soul_kr",
+      "lang": "kr",
+      "title": "내 영혼을 읽어줘 (Reading My Soul)",
+      "artist": "HelloTarot",
+      "audio": "kr/reading_my_soul_kr.mp3",
+      "cover": "covers/reading_my_soul_kr.webp",
+      "durationSec": 141,
+      "duration": "2:21"
+    },
+    {
+      "id": "straight_love_kr",
+      "lang": "kr",
+      "title": "똑바른 사랑 (Straight Love)",
+      "artist": "HelloTarot",
+      "audio": "kr/straight_love_kr.mp3",
+      "cover": "covers/straight_love_kr.webp",
+      "durationSec": 155,
+      "duration": "2:35"
+    },
+    {
+      "id": "in_the_upright_position_kr",
+      "lang": "kr",
+      "title": "바로 선 자세 (In the Upright Position)",
+      "artist": "HelloTarot",
+      "audio": "kr/in_the_upright_position_kr.mp3",
+      "cover": "covers/in_the_upright_position_kr.webp",
+      "durationSec": 127,
+      "duration": "2:07"
+    },
+    {
+      "id": "the_spread_kr",
+      "lang": "kr",
+      "title": "번져가 (The Spread)",
+      "artist": "HelloTarot",
+      "audio": "kr/the_spread_kr.mp3",
+      "cover": "covers/the_spread_kr.webp",
+      "durationSec": 142,
+      "duration": "2:22"
+    },
+    {
+      "id": "the_stars_aligned_kr",
+      "lang": "kr",
+      "title": "별이 맞춰진 밤 (The Stars Aligned)",
+      "artist": "HelloTarot",
+      "audio": "kr/the_stars_aligned_kr.mp3",
+      "cover": "covers/the_stars_aligned_kr.webp",
+      "durationSec": 141,
+      "duration": "2:21"
+    },
+    {
+      "id": "written_in_the_cards_kr",
+      "lang": "kr",
+      "title": "정해진 이야기 (Written in the Cards)",
+      "artist": "HelloTarot",
+      "audio": "kr/written_in_the_cards_kr.mp3",
+      "cover": "covers/written_in_the_cards_kr.webp",
+      "durationSec": 190,
+      "duration": "3:10"
+    },
+    {
+      "id": "the_cards_taught_me_kr",
+      "lang": "kr",
+      "title": "카드가 말해준 내 얘기 (The Cards Taught Me)",
+      "artist": "HelloTarot",
+      "audio": "kr/the_cards_taught_me_kr.mp3",
+      "cover": "covers/the_cards_taught_me_kr.webp",
+      "durationSec": 174,
+      "duration": "2:54"
+    },
+    {
+      "id": "my_day_in_the_cards_kr",
+      "lang": "kr",
+      "title": "카드에 적힌 오늘 (My Day in the Cards)",
+      "artist": "HelloTarot",
+      "audio": "kr/my_day_in_the_cards_kr.mp3",
+      "cover": "covers/my_day_in_the_cards_kr.webp",
+      "durationSec": 146,
+      "duration": "2:26"
+    },
+    {
+      "id": "unmei_no_arcana_korean_ver_kr",
+      "lang": "kr",
+      "title": "카드의 속삭임 (Unmei no Arcana - Korean Ver.)",
+      "artist": "HelloTarot",
+      "audio": "kr/unmei_no_arcana_korean_ver_kr.mp3",
+      "cover": "covers/unmei_no_arcana_korean_ver_kr.webp",
+      "durationSec": 182,
+      "duration": "3:02"
+    },
+    {
+      "id": "i_like_tarot_kr",
+      "lang": "kr",
+      "title": "타로 좋아해 (I Like Tarot)",
+      "artist": "HelloTarot",
+      "audio": "kr/i_like_tarot_kr.mp3",
+      "cover": "covers/i_like_tarot_kr.webp",
+      "durationSec": 149,
+      "duration": "2:29"
+    },
+    {
+      "id": "tarot_ga_suki_jp",
+      "lang": "jp",
+      "title": "タロットが好き (Tarot ga Suki)",
+      "artist": "HelloTarot",
+      "audio": "jp/tarot_ga_suki_jp.mp3",
+      "cover": "covers/tarot_ga_suki_jp.webp",
+      "durationSec": 161,
+      "duration": "2:41"
+    },
+    {
+      "id": "tarot_de_mekuru_kyou_jp",
+      "lang": "jp",
+      "title": "タロットでめくる今日 (Tarot de Mekuru Kyou)",
+      "artist": "HelloTarot",
+      "audio": "jp/tarot_de_mekuru_kyou_jp.mp3",
+      "cover": "covers/tarot_de_mekuru_kyou_jp.webp",
+      "durationSec": 138,
+      "duration": "2:18"
+    },
+    {
+      "id": "kokoro_no_yohaku_jp",
+      "lang": "jp",
+      "title": "心の余白 (Kokoro no Yohaku)",
+      "artist": "HelloTarot",
+      "audio": "jp/kokoro_no_yohaku_jp.mp3",
+      "cover": "covers/kokoro_no_yohaku_jp.webp",
+      "durationSec": 180,
+      "duration": "3:00"
+    },
+    {
+      "id": "gusha_no_hajime_no_ippo_jp",
+      "lang": "jp",
+      "title": "愚者のはじめの一歩 (Gusha no Hajime no Ippo)",
+      "artist": "HelloTarot",
+      "audio": "jp/gusha_no_hajime_no_ippo_jp.mp3",
+      "cover": "covers/gusha_no_hajime_no_ippo_jp.webp",
+      "durationSec": 114,
+      "duration": "1:54"
+    },
+    {
+      "id": "hirogatteku_jp",
+      "lang": "jp",
+      "title": "拡がってく (Hirogatteku)",
+      "artist": "HelloTarot",
+      "audio": "jp/hirogatteku_jp.mp3",
+      "cover": "covers/hirogatteku_jp.webp",
+      "durationSec": 155,
+      "duration": "2:35"
+    },
+    {
+      "id": "ashita_no_card_ni_jp",
+      "lang": "jp",
+      "title": "明日のカードに (Ashita no Card ni)",
+      "artist": "HelloTarot",
+      "audio": "jp/ashita_no_card_ni_jp.mp3",
+      "cover": "covers/ashita_no_card_ni_jp.webp",
+      "durationSec": 170,
+      "duration": "2:50"
+    },
+    {
+      "id": "unmei_no_arcana_jp",
+      "lang": "jp",
+      "title": "運命のアルカナ (Unmei no Arcana) [Acoustic Ver.]",
+      "artist": "HelloTarot",
+      "audio": "jp/unmei_no_arcana_jp.mp3",
+      "cover": "covers/unmei_no_arcana_jp.webp",
+      "durationSec": 177,
+      "duration": "2:57"
+    },
+    {
+      "id": "unmei_no_arcana_jp_2",
+      "lang": "jp",
+      "title": "運命のアルカナ (Unmei no Arcana)",
+      "artist": "HelloTarot",
+      "audio": "jp/unmei_no_arcana_jp_2.mp3",
+      "cover": "covers/unmei_no_arcana_jp_2.webp",
+      "durationSec": 175,
+      "duration": "2:55"
+    },
+    {
+      "id": "unmei_no_kakikae_jp",
+      "lang": "jp",
+      "title": "運命の書き換え (Unmei no Kakikae)",
+      "artist": "HelloTarot",
+      "audio": "jp/unmei_no_kakikae_jp.mp3",
+      "cover": "covers/unmei_no_kakikae_jp.webp",
+      "durationSec": 202,
+      "duration": "3:22"
+    },
+    {
+      "id": "unmei_gacha_jp",
+      "lang": "jp",
+      "title": "運命ガチャ (Unmei Gacha)",
+      "artist": "HelloTarot",
+      "audio": "jp/unmei_gacha_jp.mp3",
+      "cover": "covers/unmei_gacha_jp.webp",
+      "durationSec": 137,
+      "duration": "2:17"
+    }
+  ]
+}
