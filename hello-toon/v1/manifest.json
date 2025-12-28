@@ -32,7 +32,7 @@
       "episodes": [
         {
           "id": "ep1",
-          "date": "2023.10.20",
+          "date": "2026.01.01",
           "likes": 1240,
           "rating": 9.8,
           "cutCount": 10,
@@ -72,7 +72,7 @@
         },
         {
           "id": "ep2",
-          "date": "2023.10.27",
+          "date": "2026.01.01",
           "likes": 980,
           "rating": 9.7,
           "cutCount": 2,
@@ -124,7 +124,7 @@
       "episodes": [
         {
           "id": "ep1",
-          "date": "2023.11.01",
+          "date": "2026.01.01",
           "likes": 2400,
           "rating": 9.9,
           "cutCount": 1,
@@ -176,7 +176,7 @@
       "episodes": [
         {
           "id": "ep1",
-          "date": "2023.09.15",
+          "date": "2026.01.01",
           "likes": 1500,
           "rating": 9.9,
           "cutCount": 1,
@@ -228,7 +228,7 @@
       "episodes": [
         {
           "id": "ep1",
-          "date": "2023.11.05",
+          "date": "2026.01.01",
           "likes": 5000,
           "rating": 10.0,
           "cutCount": 1,
