@@ -95,8 +95,9 @@ def _resize_to_jpeg(
   quality: int,
 ) -> None:
   image = Image.open(src).convert('RGB')
-  target_height = round(image.height * width / image.width)
-  resized = image.resize((width, target_height), Image.Resampling.LANCZOS)
+  target_width = width if width > 0 and image.width > width else image.width
+  target_height = round(image.height * target_width / image.width)
+  resized = image.resize((target_width, target_height), Image.Resampling.LANCZOS)
   dest.parent.mkdir(parents=True, exist_ok=True)
   resized.save(
     dest,
@@ -155,6 +156,10 @@ def build_rws_1909(*, src_dir: Path, dest_dir: Path, slot_ids: list[str]) -> Non
   copy_minor('Cups', 'cups')
   copy_minor('Swords', 'swords')
   copy_minor('Pents', 'pentacles')
+
+  back_src = src_dir / 'back.jpg'
+  if back_src.exists():
+    shutil.copyfile(back_src, dest_dir / 'back.jpg')
 
   shutil.copyfile(dest_dir / 'major_fool.jpg', dest_dir / 'cover.jpg')
 
@@ -253,13 +258,83 @@ def build_marseille_bnf(
   shutil.copyfile(dest_dir / 'major_fool.jpg', dest_dir / 'cover.jpg')
 
 
+def build_custom_rws_style_deck(
+  *,
+  src_dir: Path,
+  dest_dir: Path,
+  slot_ids: list[str],
+  width: int,
+  quality: int,
+) -> None:
+  major_slots = [slot for slot in slot_ids if slot.startswith('major_')]
+  if len(major_slots) != 22:
+    raise RuntimeError(f'Unexpected major arcana slots: {len(major_slots)}')
+
+  dest_dir.mkdir(parents=True, exist_ok=True)
+
+  for index, slot in enumerate(major_slots):
+    glob = f'RWS_Tarot_{index:02d}_*.jpg'
+    matches = sorted(src_dir.glob(glob))
+    if len(matches) != 1:
+      raise RuntimeError(f'Expected exactly 1 match for {glob}, got {len(matches)}')
+    _resize_to_jpeg(
+      src=matches[0],
+      dest=dest_dir / f'{slot}.jpg',
+      width=width,
+      quality=quality,
+    )
+
+  def build_minor(prefix: str, slot_prefix: str) -> None:
+    for slot in slot_ids:
+      if not slot.startswith(f'{slot_prefix}_'):
+        continue
+      rank = slot.split('_', 1)[1]
+      index = _rws_minor_rank_to_index(rank)
+      src = src_dir / f'{prefix}{index:02d}.jpg'
+      if not src.exists():
+        raise RuntimeError(f'Missing file: {src}')
+      _resize_to_jpeg(
+        src=src,
+        dest=dest_dir / f'{slot}.jpg',
+        width=width,
+        quality=quality,
+      )
+
+  build_minor('Wands', 'wands')
+  build_minor('Cups', 'cups')
+  build_minor('Swords', 'swords')
+  build_minor('Pents', 'pentacles')
+
+  back_src = None
+  for candidate in ('back.jpg', 'Back.jpg', 'BACK.jpg'):
+    path = src_dir / candidate
+    if path.exists():
+      back_src = path
+      break
+  if back_src is None:
+    raise RuntimeError(f'Missing back image in {src_dir}')
+
+  _resize_to_jpeg(
+    src=back_src,
+    dest=dest_dir / 'back.jpg',
+    width=width,
+    quality=quality,
+  )
+
+  shutil.copyfile(dest_dir / 'major_fool.jpg', dest_dir / 'cover.jpg')
+
+
 def main() -> int:
   parser = argparse.ArgumentParser(description='Build tarot deck assets (tarot-sounds).')
   parser.add_argument('--all', action='store_true', help='Build all supported decks.')
   parser.add_argument('--rws', action='store_true', help='Build rws_1909 deck.')
   parser.add_argument('--marseille', action='store_true', help='Build marseille_bnf deck.')
+  parser.add_argument('--custom', action='store_true', help='Build custom decks (local TarotDeck).')
+  parser.add_argument('--tarotdeck-src', type=str, help='Path to TarotDeck folder.')
   parser.add_argument('--width', type=int, default=320, help='Target width for downloaded decks.')
   parser.add_argument('--quality', type=int, default=80, help='JPEG quality (1-95).')
+  parser.add_argument('--custom-width', type=int, default=640, help='Target width for custom decks.')
+  parser.add_argument('--custom-quality', type=int, default=82, help='Custom deck JPEG quality (1-95).')
   parser.add_argument(
     '--sleep',
     type=float,
@@ -270,9 +345,12 @@ def main() -> int:
 
   build_rws = args.all or args.rws
   build_marseille = args.all or args.marseille
+  build_custom = args.custom
 
-  if not build_rws and not build_marseille:
-    parser.error('No deck selected. Use --all or --rws/--marseille.')
+  if not build_rws and not build_marseille and not build_custom:
+    parser.error('No deck selected. Use --all or --rws/--marseille/--custom.')
+  if build_custom and not args.tarotdeck_src:
+    parser.error('--custom requires --tarotdeck-src.')
 
   root = _repo_root()
   slot_ids = _load_slot_ids(root / 'flutter/lib/data/tarot_deck_schema.dart')
@@ -293,6 +371,23 @@ def main() -> int:
       quality=args.quality,
       sleep_seconds=args.sleep,
     )
+
+  if build_custom:
+    tarotdeck_root = Path(args.tarotdeck_src)
+    decks = [
+      ('golden_fable', 'Golden Fable Tarot'),
+      ('moonlit_arcana', 'Moonlit Arcana Tarot'),
+      ('ivory_arcana', 'The Ivory Arcana'),
+      ('luminous_arcana', 'The Luminous Arcana'),
+    ]
+    for deck_id, folder in decks:
+      build_custom_rws_style_deck(
+        src_dir=tarotdeck_root / folder,
+        dest_dir=root / f'tarot-sounds/assets/cards/v1/{deck_id}',
+        slot_ids=slot_ids,
+        width=args.custom_width,
+        quality=args.custom_quality,
+      )
 
   return 0
 
