@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+    <style>
+      html,
+      body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        background: transparent;
+        overflow: hidden;
+      }
+      body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      #coupang-banner {
+        width: 100%;
+        height: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="coupang-banner"></div>
+    <script>
+      (function () {
+        function bannerSize() {
+          var w = document.documentElement.clientWidth || 320;
+          var h = document.documentElement.clientHeight || 320;
+          var size = Math.min(w, h);
+          return Math.max(240, Math.floor(size));
+        }
+
+        function render() {
+          var size = bannerSize();
+          new PartnersCoupang.G({
+            id: 953687,
+            template: "carousel",
+            trackingCode: "AF1353183",
+            width: String(size),
+            height: String(size),
+            tsource: "",
+          });
+        }
+
+        var script = document.createElement("script");
+        script.src = "https://ads-partners.coupang.com/g.js";
+        script.async = true;
+        script.onload = render;
+        document.body.appendChild(script);
+      })();
+    </script>
+  </body>
+</html>

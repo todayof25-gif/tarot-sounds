@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "offers": [
+    {
+      "id": "coupang",
+      "locales": ["kr"],
+      "enabledByPlatform": {
+        "android": true,
+        "ios": false
+      },
+      "buttonLabel": "쿠팡 인기상품 구경하기",
+      "modalTitle": "쿠팡 배너를 클릭해주세요.",
+      "disclosure": "※ 이 배너 클릭시 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.",
+      "deepLinkUrl": "https://link.coupang.com/a/diU8X9",
+      "banner": {
+        "type": "html",
+        "url": "https://www.aeipet.com/app-config/v1/coupang_banner.html"
+      }
+    }
+  ]
+}
