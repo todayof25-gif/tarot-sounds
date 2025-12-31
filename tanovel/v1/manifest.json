@@ -300,6 +300,303 @@
           }
         }
       ]
+    },
+    {
+      "id": "midnight_counseling",
+      "isNew": true,
+      "isUp": true,
+      "authors": {
+        "kr": "HelloTarot",
+        "en": "HelloTarot",
+        "ja": "HelloTarot"
+      },
+      "genres": {
+        "kr": "#힐링/미스터리 #타로 #운명",
+        "en": "#힐링/미스터리 #타로 #운명",
+        "ja": "#힐링/미스터리 #타로 #운명"
+      },
+      "titles": {
+        "kr": "밤 12시의 상담소",
+        "en": "밤 12시의 상담소",
+        "ja": "밤 12시의 상담소"
+      },
+      "descriptions": {
+        "kr": "당신의 악몽을 팝니다. 밤 12시, 세상에서 가장 수상하고 따뜻한 상담소가 문을 엽니다.",
+        "en": "당신의 악몽을 팝니다. 밤 12시, 세상에서 가장 수상하고 따뜻한 상담소가 문을 엽니다.",
+        "ja": "당신의 악몽을 팝니다. 밤 12시, 세상에서 가장 수상하고 따뜻한 상담소가 문을 엽니다."
+      },
+      "chapters": [
+        {
+          "id": "ch01",
+          "date": "2026.01.01",
+          "titles": {
+            "kr": "밤 12시에 열리는 가게",
+            "en": "밤 12시에 열리는 가게",
+            "ja": "밤 12시에 열리는 가게"
+          }
+        },
+        {
+          "id": "ch02",
+          "date": "2026.01.01",
+          "titles": {
+            "kr": "별빛 차와 바보 카드",
+            "en": "별빛 차와 바보 카드",
+            "ja": "별빛 차와 바보 카드"
+          }
+        },
+        {
+          "id": "ch03",
+          "date": "2026.01.01",
+          "titles": {
+            "kr": "가시를 삼킨 여자",
+            "en": "가시를 삼킨 여자",
+            "ja": "가시를 삼킨 여자"
+          }
+        },
+        {
+          "id": "ch04",
+          "date": "2026.01.01",
+          "titles": {
+            "kr": "가시를 뽑는 법",
+            "en": "가시를 뽑는 법",
+            "ja": "가시를 뽑는 법"
+          }
+        },
+        {
+          "id": "ch05",
+          "date": "2026.01.01",
+          "titles": {
+            "kr": "거꾸로 걷는 고양이",
+            "en": "거꾸로 걷는 고양이",
+            "ja": "거꾸로 걷는 고양이"
+          }
+        },
+        {
+          "id": "ch06",
+          "date": "2026.01.01",
+          "titles": {
+            "kr": "비와 로즈마리",
+            "en": "비와 로즈마리",
+            "ja": "비와 로즈마리"
+          }
+        },
+        {
+          "id": "ch07",
+          "date": "2026.01.01",
+          "titles": {
+            "kr": "그림자 손님",
+            "en": "그림자 손님",
+            "ja": "그림자 손님"
+          }
+        },
+        {
+          "id": "ch08",
+          "date": "2026.01.01",
+          "titles": {
+            "kr": "진실의 검 (Sword Ace)",
+            "en": "진실의 검 (Sword Ace)",
+            "ja": "진실의 검 (Sword Ace)"
+          }
+        },
+        {
+          "id": "ch09",
+          "date": "2026.01.01",
+          "titles": {
+            "kr": "반복되는 자",
+            "en": "반복되는 자",
+            "ja": "반복되는 자"
+          }
+        },
+        {
+          "id": "ch10",
+          "date": "2026.01.01",
+          "titles": {
+            "kr": "최초의 불꽃 (The Tower)",
+            "en": "최초의 불꽃 (The Tower)",
+            "ja": "최초의 불꽃 (The Tower)"
+          }
+        },
+        {
+          "id": "ch11",
+          "date": "2026.01.01",
+          "titles": {
+            "kr": "공유된 악몽 (The Moon)",
+            "en": "공유된 악몽 (The Moon)",
+            "ja": "공유된 악몽 (The Moon)"
+          }
+        },
+        {
+          "id": "ch12",
+          "date": "2026.01.01",
+          "titles": {
+            "kr": "마음의 방화범 (The Devil)",
+            "en": "마음의 방화범 (The Devil)",
+            "ja": "마음의 방화범 (The Devil)"
+          }
+        },
+        {
+          "id": "ch13",
+          "date": "2026.01.01",
+          "titles": {
+            "kr": "가면 무도회 (The Lovers)",
+            "en": "가면 무도회 (The Lovers)",
+            "ja": "가면 무도회 (The Lovers)"
+          }
+        },
+        {
+          "id": "ch14",
+          "date": "2026.01.01",
+          "titles": {
+            "kr": "깨진 거울 (The Star)",
+            "en": "깨진 거울 (The Star)",
+            "ja": "깨진 거울 (The Star)"
+          }
+        },
+        {
+          "id": "ch15",
+          "date": "2026.01.01",
+          "titles": {
+            "kr": "사라진 기억 (The Hermit)",
+            "en": "사라진 기억 (The Hermit)",
+            "ja": "사라진 기억 (The Hermit)"
+          }
+        },
+        {
+          "id": "ch16",
+          "date": "2026.01.01",
+          "titles": {
+            "kr": "운명의 수레바퀴 (Wheel of Fortune)",
+            "en": "운명의 수레바퀴 (Wheel of Fortune)",
+            "ja": "운명의 수레바퀴 (Wheel of Fortune)"
+          }
+        },
+        {
+          "id": "ch17",
+          "date": "2026.01.01",
+          "titles": {
+            "kr": "매듭 풀기 (The Emperor)",
+            "en": "매듭 풀기 (The Emperor)",
+            "ja": "매듭 풀기 (The Emperor)"
+          }
+        },
+        {
+          "id": "ch18",
+          "date": "2026.01.01",
+          "titles": {
+            "kr": "마녀 사냥 - 1부 (Judgment)",
+            "en": "마녀 사냥 - 1부 (Judgment)",
+            "ja": "마녀 사냥 - 1부 (Judgment)"
+          }
+        },
+        {
+          "id": "ch19",
+          "date": "2026.01.01",
+          "titles": {
+            "kr": "마녀 사냥 - 2부 (The Hanged Man)",
+            "en": "마녀 사냥 - 2부 (The Hanged Man)",
+            "ja": "마녀 사냥 - 2부 (The Hanged Man)"
+          }
+        },
+        {
+          "id": "ch20",
+          "date": "2026.01.01",
+          "titles": {
+            "kr": "불을 마주하다 (Death)",
+            "en": "불을 마주하다 (Death)",
+            "ja": "불을 마주하다 (Death)"
+          }
+        },
+        {
+          "id": "ch21",
+          "date": "2026.01.01",
+          "titles": {
+            "kr": "무너진 탑 (The Tower)",
+            "en": "무너진 탑 (The Tower)",
+            "ja": "무너진 탑 (The Tower)"
+          }
+        },
+        {
+          "id": "ch22",
+          "date": "2026.01.01",
+          "titles": {
+            "kr": "동거의 온도 (Two of Cups)",
+            "en": "동거의 온도 (Two of Cups)",
+            "ja": "동거의 온도 (Two of Cups)"
+          }
+        },
+        {
+          "id": "ch23",
+          "date": "2026.01.01",
+          "titles": {
+            "kr": "그림자의 꼬리 (Page of Swords)",
+            "en": "그림자의 꼬리 (Page of Swords)",
+            "ja": "그림자의 꼬리 (Page of Swords)"
+          }
+        },
+        {
+          "id": "ch24",
+          "date": "2026.01.01",
+          "titles": {
+            "kr": "잊혀진 요양원 (The Moon)",
+            "en": "잊혀진 요양원 (The Moon)",
+            "ja": "잊혀진 요양원 (The Moon)"
+          }
+        },
+        {
+          "id": "ch25",
+          "date": "2026.01.01",
+          "titles": {
+            "kr": "거꾸로 매달린 구원 (The Hanged Man - Reverse)",
+            "en": "거꾸로 매달린 구원 (The Hanged Man - Reverse)",
+            "ja": "거꾸로 매달린 구원 (The Hanged Man - Reverse)"
+          }
+        },
+        {
+          "id": "ch26",
+          "date": "2026.01.01",
+          "titles": {
+            "kr": "어머니의 예언 (The High Priestess)",
+            "en": "어머니의 예언 (The High Priestess)",
+            "ja": "어머니의 예언 (The High Priestess)"
+          }
+        },
+        {
+          "id": "ch27",
+          "date": "2026.01.01",
+          "titles": {
+            "kr": "지옥의 문 (The Devil)",
+            "en": "지옥의 문 (The Devil)",
+            "ja": "지옥의 문 (The Devil)"
+          }
+        },
+        {
+          "id": "ch28",
+          "date": "2026.01.01",
+          "titles": {
+            "kr": "심판 (Judgement)",
+            "en": "심판 (Judgement)",
+            "ja": "심판 (Judgement)"
+          }
+        },
+        {
+          "id": "ch29",
+          "date": "2026.01.01",
+          "titles": {
+            "kr": "새벽의 향기 (Ace of Cups)",
+            "en": "새벽의 향기 (Ace of Cups)",
+            "ja": "새벽의 향기 (Ace of Cups)"
+          }
+        },
+        {
+          "id": "ch30",
+          "date": "2026.01.01",
+          "titles": {
+            "kr": "완성된 세계 (The World) - (완결)",
+            "en": "완성된 세계 (The World) - (완결)",
+            "ja": "완성된 세계 (The World) - (완결)"
+          }
+        }
+      ]
     }
   ]
 }
