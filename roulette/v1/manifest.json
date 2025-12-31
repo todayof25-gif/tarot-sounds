@@ -1,0 +1,98 @@
+{
+  "version": 1,
+  "items": [
+    {
+      "id": "coupon_vip_1day",
+      "type": "coupon",
+      "rarity": "RARE"
+    },
+    {
+      "id": "badge_stargazer",
+      "type": "badge",
+      "rarity": "EPIC",
+      "icon": "items/badge_stargazer/icon.png"
+    },
+    {
+      "id": "crystal_pack_small",
+      "type": "crystal",
+      "rarity": "COMMON",
+      "value": 30,
+      "icon": "items/crystal_pack_small/icon.jpg"
+    },
+    {
+      "id": "coupon_50_off",
+      "type": "coupon",
+      "rarity": "COMMON",
+      "icon": "items/coupon_50_off/icon.png"
+    },
+    {
+      "id": "badge_collector",
+      "type": "badge",
+      "rarity": "RARE",
+      "icon": "items/badge_collector/icon.png"
+    },
+    {
+      "id": "crystal_pack_medium",
+      "type": "crystal",
+      "rarity": "LEGENDARY",
+      "value": 100,
+      "icon": "items/crystal_pack_medium/icon.jpg"
+    },
+    {
+      "id": "coupon_arcana_premium_card",
+      "type": "coupon",
+      "rarity": "EPIC",
+      "icon": "items/coupon_arcana_premium_card/icon.jpg",
+      "names": {
+        "kr": "프리미엄 덱 해금권",
+        "en": "Premium Deck Unlock"
+      },
+      "descriptions": {
+        "kr": "프리미엄 타로 덱(Arcana) 카드 1장을 해금할 수 있습니다.",
+        "en": "Unlock 1 card slot in a premium Arcana deck."
+      }
+    },
+    {
+      "id": "coupon_magic_potion",
+      "type": "coupon",
+      "rarity": "RARE",
+      "icon": "items/coupon_magic_potion/icon.jpg",
+      "names": {
+        "kr": "마법의 포션",
+        "en": "Magic Potion"
+      },
+      "descriptions": {
+        "kr": "특별한 효과 아이템(추후 업데이트 예정)",
+        "en": "A special-effect item (coming soon)."
+      }
+    },
+    {
+      "id": "badge_heart",
+      "type": "badge",
+      "rarity": "EPIC",
+      "icon": "items/badge_heart/icon.png",
+      "names": {
+        "kr": "하트 수호자",
+        "en": "Heart Guardian"
+      },
+      "descriptions": {
+        "kr": "소울 룰렛에서 획득 가능한 한정 뱃지입니다.",
+        "en": "A limited badge obtainable from Soul Roulette."
+      }
+    }
+  ],
+  "pools": {
+    "default": [
+      "coupon_vip_1day",
+      "badge_stargazer",
+      "crystal_pack_small",
+      "coupon_50_off",
+      "badge_collector",
+      "crystal_pack_medium",
+      "coupon_arcana_premium_card",
+      "coupon_magic_potion",
+      "badge_heart"
+    ]
+  }
+}
+
