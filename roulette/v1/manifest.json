@@ -17,7 +17,7 @@
       "type": "crystal",
       "rarity": "COMMON",
       "value": 30,
-      "icon": "items/crystal_pack_small/icon.jpg"
+      "icon": "items/crystal_pack_small/icon.png"
     },
     {
       "id": "coupon_50_off",
@@ -36,7 +36,7 @@
       "type": "crystal",
       "rarity": "LEGENDARY",
       "value": 100,
-      "icon": "items/crystal_pack_medium/icon.jpg"
+      "icon": "items/crystal_pack_medium/icon.png"
     },
     {
       "id": "coupon_arcana_premium_card",
@@ -56,7 +56,7 @@
       "id": "coupon_magic_potion",
       "type": "coupon",
       "rarity": "RARE",
-      "icon": "items/coupon_magic_potion/icon.jpg",
+      "icon": "items/coupon_magic_potion/icon.png",
       "names": {
         "kr": "마법의 포션",
         "en": "Magic Potion"
@@ -95,4 +95,3 @@
     ]
   }
 }
-
