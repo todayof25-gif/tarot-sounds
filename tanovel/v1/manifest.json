@@ -597,6 +597,483 @@
           }
         }
       ]
+    },
+    {
+      "id": "today_fortune_cat",
+      "isNew": true,
+      "isUp": true,
+      "authors": {
+        "kr": "HelloTarot",
+        "en": "HelloTarot",
+        "ja": "HelloTarot"
+      },
+      "genres": {
+        "kr": "#힐링로맨스",
+        "en": "#HealingRomance",
+        "ja": "#癒しロマンス"
+      },
+      "titles": {
+        "kr": "오늘의 운세 냥이",
+        "en": "Today's Fortune Cat",
+        "ja": "今日の運勢ニャン"
+      },
+      "descriptions": {
+        "kr": "집사야, 츄르를 바치면 너의 운명을 알려주마! 신비한 냥이 ‘묘르신’이 점쳐주는 기막힌 하루하루!",
+        "en": "Human, offer up Churu and I shall tell your fate! A mysterious cat, Myoreusin, predicts your day—one chaotic fortune at a time.",
+        "ja": "下僕よ、ちゅ〜るを捧げれば運命を教えてやるニャ！不思議な猫「ミョルシン」が占う、波乱だらけの毎日。"
+      },
+      "chapters": [
+        {
+          "id": "ch01",
+          "date": "2026.01.01",
+          "titles": {
+            "kr": "EP.01 - 츄르가 모자라",
+            "en": "EP.01 - Running Low on Churu",
+            "ja": "EP.01 - チュールが足りないニャ"
+          }
+        },
+        {
+          "id": "ch02",
+          "date": "2026.01.01",
+          "titles": {
+            "kr": "EP.02 - 개사료는 거절한다",
+            "en": "EP.02 - I Refuse Dog Food",
+            "ja": "EP.02 - ドッグフードはお断りだニャ"
+          }
+        },
+        {
+          "id": "ch03",
+          "date": "2026.01.01",
+          "titles": {
+            "kr": "EP.03 - 북쪽의 귀인은 누구?",
+            "en": "EP.03 - Who is the Noble Person of the North?",
+            "ja": "EP.03 - 北の貴人は誰？"
+          }
+        },
+        {
+          "id": "ch04",
+          "date": "2026.01.01",
+          "titles": {
+            "kr": "EP.04 - 로또 말고 츄르또",
+            "en": "EP.04 - Not Lotto, but Churutto",
+            "ja": "EP.04 - ロトじゃなくてチュールト"
+          }
+        },
+        {
+          "id": "ch05",
+          "date": "2026.01.01",
+          "titles": {
+            "kr": "EP.05 - 옆집 남자의 비밀",
+            "en": "EP.05 - The Neighbor's Secret",
+            "ja": "EP.05 - 隣人の秘密"
+          }
+        },
+        {
+          "id": "ch06",
+          "date": "2026.01.01",
+          "titles": {
+            "kr": "EP.06 - 술주정은 고양이 앞에서",
+            "en": "EP.06 - Drinking Habits in Front of a Cat",
+            "ja": "EP.06 - 酒癖は猫の前で"
+          }
+        },
+        {
+          "id": "ch07",
+          "date": "2026.01.01",
+          "titles": {
+            "kr": "EP.07 - 썸은 츄르를 타고",
+            "en": "EP.07 - Romance Rides on Churu",
+            "ja": "EP.07 - サム（恋の予感）はチュールに乗って"
+          }
+        },
+        {
+          "id": "ch08",
+          "date": "2026.01.01",
+          "titles": {
+            "kr": "EP.08 - 우리 집에 도둑이 산다",
+            "en": "EP.08 - A Thief Lives in My House",
+            "ja": "EP.08 - 我が家に泥棒が住んでいる"
+          }
+        },
+        {
+          "id": "ch09",
+          "date": "2026.01.01",
+          "titles": {
+            "kr": "EP.09 - 구세주 등장",
+            "en": "EP.09 - Savior Appearance",
+            "ja": "EP.09 - 救世主登場"
+          }
+        },
+        {
+          "id": "ch10",
+          "date": "2026.01.01",
+          "titles": {
+            "kr": "EP.10 - 냥이 번역기",
+            "en": "EP.10 - Cat Translator",
+            "ja": "EP.10 - ニャンコ翻訳機"
+          }
+        },
+        {
+          "id": "ch11",
+          "date": "2026.01.01",
+          "titles": {
+            "kr": "EP.11 - 오해와 진실",
+            "en": "EP.11 - Misunderstanding and Truth",
+            "ja": "EP.11 - 誤解と真実"
+          }
+        },
+        {
+          "id": "ch12",
+          "date": "2026.01.01",
+          "titles": {
+            "kr": "EP.12 - 츄르의 맛, 사랑의 맛",
+            "en": "EP.12 - The Taste of Churu, The Taste of Love",
+            "ja": "EP.12 - チュールの味、恋の味"
+          }
+        },
+        {
+          "id": "ch13",
+          "date": "2026.01.01",
+          "titles": {
+            "kr": "EP.13 - 묘르신의 가출",
+            "en": "EP.13 - Myoreusin's Runaway",
+            "ja": "EP.13 - ミョルシンの家出"
+          }
+        },
+        {
+          "id": "ch14",
+          "date": "2026.01.01",
+          "titles": {
+            "kr": "EP.14 - 추격자들",
+            "en": "EP.14 - Chasers",
+            "ja": "EP.14 - 追撃者たち"
+          }
+        },
+        {
+          "id": "ch15",
+          "date": "2026.01.01",
+          "titles": {
+            "kr": "EP.15 - 정체",
+            "en": "EP.15 - Identity",
+            "ja": "EP.15 - 正体"
+          }
+        },
+        {
+          "id": "ch16",
+          "date": "2026.01.01",
+          "titles": {
+            "kr": "EP.16 - 가족의 증명",
+            "en": "EP.16 - Proof of Family",
+            "ja": "EP.16 - 家族の証明"
+          }
+        },
+        {
+          "id": "ch17",
+          "date": "2026.01.01",
+          "titles": {
+            "kr": "EP.17 - 달콤 살벌한 동거",
+            "en": "EP.17 - Sweet and Savage Cohabitation",
+            "ja": "EP.17 - 甘く殺伐とした同居"
+          }
+        },
+        {
+          "id": "ch18",
+          "date": "2026.01.01",
+          "titles": {
+            "kr": "EP.18 - 질투 폭발",
+            "en": "EP.18 - Jealousy Explosion",
+            "ja": "EP.18 - 嫉妬爆発"
+          }
+        },
+        {
+          "id": "ch19",
+          "date": "2026.01.01",
+          "titles": {
+            "kr": "EP.19 - 라이벌 등장",
+            "en": "EP.19 - Rival Appears",
+            "ja": "EP.19 - ライバル登場"
+          }
+        },
+        {
+          "id": "ch20",
+          "date": "2026.01.01",
+          "titles": {
+            "kr": "EP.20 - 질투는 나의 힘",
+            "en": "EP.20 - Jealousy is My Power",
+            "ja": "EP.20 - 嫉妬は私の力"
+          }
+        },
+        {
+          "id": "ch21",
+          "date": "2026.01.01",
+          "titles": {
+            "kr": "EP.21 - 고백의 타이밍",
+            "en": "EP.21 - Timing of the Confession",
+            "ja": "EP.21 - 告白のタイミング"
+          }
+        },
+        {
+          "id": "ch22",
+          "date": "2026.01.01",
+          "titles": {
+            "kr": "EP.22 - 묘르신의 아픔",
+            "en": "EP.22 - Myoreusin's Pain",
+            "ja": "EP.22 - ミョルシンの痛み"
+          }
+        },
+        {
+          "id": "ch23",
+          "date": "2026.01.01",
+          "titles": {
+            "kr": "EP.23 - 기적을 바라는 밤",
+            "en": "EP.23 - Night Wishing for a Miracle",
+            "ja": "EP.23 - 奇跡を願う夜"
+          }
+        },
+        {
+          "id": "ch24",
+          "date": "2026.01.01",
+          "titles": {
+            "kr": "EP.24 - 두 번째 고백",
+            "en": "EP.24 - Second Confession",
+            "ja": "EP.24 - 二度目の告白"
+          }
+        },
+        {
+          "id": "ch25",
+          "date": "2026.01.01",
+          "titles": {
+            "kr": "EP.25 - 장모님의 습격",
+            "en": "EP.25 - Mother-in-law's Attack",
+            "ja": "EP.25 - 義母の襲撃"
+          }
+        },
+        {
+          "id": "ch26",
+          "date": "2026.01.01",
+          "titles": {
+            "kr": "EP.26 - 비밀의 해제",
+            "en": "EP.26 - Secrets Unlocked",
+            "ja": "EP.26 - 秘密の解除"
+          }
+        },
+        {
+          "id": "ch27",
+          "date": "2026.01.01",
+          "titles": {
+            "kr": "EP.27 - 프러포즈 대작전",
+            "en": "EP.27 - Operation Proposal",
+            "ja": "EP.27 - プロポーズ大作戦"
+          }
+        },
+        {
+          "id": "ch28",
+          "date": "2026.01.01",
+          "titles": {
+            "kr": "EP.28 - 반지 원정대",
+            "en": "EP.28 - Fellowship of the Ring",
+            "ja": "EP.28 - 指輪遠征隊"
+          }
+        },
+        {
+          "id": "ch29",
+          "date": "2026.01.01",
+          "titles": {
+            "kr": "EP.29 - 신묘한 미래",
+            "en": "EP.29 - Mysterious Future",
+            "ja": "EP.29 - 神妙な未来"
+          }
+        },
+        {
+          "id": "ch30",
+          "date": "2026.01.01",
+          "titles": {
+            "kr": "EP.30 - 해피 엔딩 (완결)",
+            "en": "EP.30 - Happy Ending (Finale)",
+            "ja": "EP.30 - ハッピーエンド（完結）"
+          }
+        },
+        {
+          "id": "ch31",
+          "date": "2026.01.01",
+          "titles": {
+            "kr": "Side Story 01. 첫 번째 심장 소리 (태명: 별이)",
+            "en": "Side Story 01. The First Heartbeat (Fetus Name: Byeol-i)",
+            "ja": "Side Story 01. 最初の心音（胎名：ビョリ）"
+          }
+        },
+        {
+          "id": "ch32",
+          "date": "2026.01.01",
+          "titles": {
+            "kr": "Side Story 02. 묘르신의 태교 (부제: 침묵의 수호자)",
+            "en": "Side Story 02. Myoreusin's Prenatal Care (Subtitle: The Silent Guardian)",
+            "ja": "Side Story 02. ミョルシンの胎教（副題：沈黙の守護者）"
+          }
+        },
+        {
+          "id": "ch33",
+          "date": "2026.01.01",
+          "titles": {
+            "kr": "Side Story 03. 한겨울의 복숭아와 참치 (부제: 태아의 논리)",
+            "en": "Side Story 03. Winter Peaches and Tuna (Subtitle: Fetus Logic)",
+            "ja": "Side Story 03. 真冬の桃とマグロ（副題：胎児の論理）"
+          }
+        },
+        {
+          "id": "ch34",
+          "date": "2026.01.01",
+          "titles": {
+            "kr": "Side Story 04. 태명 전쟁 (부제: 사랑이 vs 츄르 2호)",
+            "en": "Side Story 04. Fetus Name War (Subtitle: Sarang-i vs Churu No.2)",
+            "ja": "Side Story 04. 胎名戦争（副題：サランイ vs チュール2号）"
+          }
+        },
+        {
+          "id": "ch35",
+          "date": "2026.01.01",
+          "titles": {
+            "kr": "Side Story 05. 질투 (부제: 묘르신의 가출 소동)",
+            "en": "Side Story 05. Jealousy (Subtitle: Myoreusin's Runaway Commotion)",
+            "ja": "Side Story 05. 嫉妬（副題：ミョルシンの家出騒動）"
+          }
+        },
+        {
+          "id": "ch36",
+          "date": "2026.01.01",
+          "titles": {
+            "kr": "Side Story 06. 성별 공개 (부제: 묘르신의 배신감)",
+            "en": "Side Story 06. Gender Reveal (Subtitle: Myoreusin's Sense of Betrayal)",
+            "ja": "Side Story 06. 性別公開（副題：ミョルシンの裏切り感）"
+          }
+        },
+        {
+          "id": "ch37",
+          "date": "2026.01.01",
+          "titles": {
+            "kr": "Side Story 07. 시어머니와 묘르신 (부제: 함락 작전)",
+            "en": "Side Story 07. Mother-in-Law and Myoreusin (Subtitle: Conquest Operation)",
+            "ja": "Side Story 07. 姑とミョルシン（副題：陥落作戦）"
+          }
+        },
+        {
+          "id": "ch38",
+          "date": "2026.01.01",
+          "titles": {
+            "kr": "Side Story 08. 제주도 푸른 밤과 SOS",
+            "en": "Side Story 08. Jeju Island Blue Night and SOS",
+            "ja": "Side Story 08. 済州島の青い夜とSOS"
+          }
+        },
+        {
+          "id": "ch39",
+          "date": "2026.01.01",
+          "titles": {
+            "kr": "Side Story 09. 가진통? 아니 가스통! (부제: 밤의 전쟁)",
+            "en": "Side Story 09. False Labor? No, Gas Labor! (Subtitle: War of the Night)",
+            "ja": "Side Story 09. 前駆陣痛？　いやガス痛！（副題：夜の戦争）"
+          }
+        },
+        {
+          "id": "ch40",
+          "date": "2026.01.01",
+          "titles": {
+            "kr": "Side Story 10. D-Day: 별이 뜨는 밤",
+            "en": "Side Story 10. D-Day: The Night the Star Rises",
+            "ja": "Side Story 10. D-Day: 星が出る（ビョリが浮かぶ）夜"
+          }
+        },
+        {
+          "id": "ch41",
+          "date": "2026.01.01",
+          "titles": {
+            "kr": "Side Story 11. 집사 주니어의 귀환",
+            "en": "Side Story 11. Return of Butler Junior (Subtitle: First Meeting)",
+            "ja": "Side Story 11. 執事ジュニアの帰還"
+          }
+        },
+        {
+          "id": "ch42",
+          "date": "2026.01.01",
+          "titles": {
+            "kr": "Side Story 12. 보모냥이 (부제: 육아는 고양이 빨)",
+            "en": "Side Story 12. The Nanny Cat (Subtitle: Childcare is Item Power? No, Cat Power)",
+            "ja": "Side Story 12. ナニーキャット（副題：育児は猫装備効果）"
+          }
+        },
+        {
+          "id": "ch43",
+          "date": "2026.01.01",
+          "titles": {
+            "kr": "Side Story 13. 한 발 뒤에서 (부제: 그림자 수호신)",
+            "en": "Side Story 13. One Step Behind (Subtitle: Shadow Guardian)",
+            "ja": "Side Story 13. 一歩後ろで（副題：影の守護神）"
+          }
+        },
+        {
+          "id": "ch44",
+          "date": "2026.01.01",
+          "titles": {
+            "kr": "Side Story 14. 첫 마디 (부제: 조기 교육의 폐해)",
+            "en": "Side Story 14. First Word (Subtitle: Harm of Early Education)",
+            "ja": "Side Story 14. 初めての言葉（副題：早期教育の弊害）"
+          }
+        },
+        {
+          "id": "ch45",
+          "date": "2026.01.01",
+          "titles": {
+            "kr": "Side Story 15. 공원에서의 위기 (부제: 우리 애는 내가 지킨다)",
+            "en": "Side Story 15. Crisis at the Park (Subtitle: I Protect My Kid)",
+            "ja": "Side Story 15. 公園での危機（副題：うちの子は吾輩が守る）"
+          }
+        },
+        {
+          "id": "ch46",
+          "date": "2026.01.01",
+          "titles": {
+            "kr": "Side Story 16. 공동 육아 (부제: 솔로몬의 묘르신)",
+            "en": "Side Story 16. Joint Parenting (Subtitle: Solomon Myoreusin)",
+            "ja": "Side Story 16. 共同育児（副題：ソロモンのミョルシン）"
+          }
+        },
+        {
+          "id": "ch47",
+          "date": "2026.01.01",
+          "titles": {
+            "kr": "Side Story 17. 묘르신의 비밀 외출 (부제: 고양이는 은혜를 갚는다)",
+            "en": "Side Story 17. Myoreusin's Secret Outing (Subtitle: Cat Repays Kindness)",
+            "ja": "Side Story 17. ミョルシンの秘密の外出（副題：猫は恩を返す）"
+          }
+        },
+        {
+          "id": "ch48",
+          "date": "2026.01.01",
+          "titles": {
+            "kr": "Side Story 18. 두 번째 생일 (부제: 묘르신의 큰 그림)",
+            "en": "Side Story 18. The Second Birthday (Subtitle: Myoreusin's Big Picture)",
+            "ja": "Side Story 18. 二回目の誕生日（副題：ミョルシンのビッグ・ピクチャー）"
+          }
+        },
+        {
+          "id": "ch49",
+          "date": "2026.01.01",
+          "titles": {
+            "kr": "Side Story 19. 프로젝트 M의 유산 (부제: 영원한 가족)",
+            "en": "Side Story 19. Legacy of Project M (Subtitle: Eternal Family)",
+            "ja": "Side Story 19. プロジェクトMの遺産（副題：永遠の家族）"
+          }
+        },
+        {
+          "id": "ch50",
+          "date": "2026.01.01",
+          "titles": {
+            "kr": "Side Story 20. 완벽한 가족 (부제: 영원히, 맑음)",
+            "en": "Side Story 20. Perfect Family (Subtitle: Forever, Sunny)",
+            "ja": "Side Story 20. 完璧な家族（副題：永遠に、晴れ）"
+          }
+        }
+      ]
     }
   ]
 }
