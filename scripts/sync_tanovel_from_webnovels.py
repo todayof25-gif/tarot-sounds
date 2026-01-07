@@ -244,6 +244,186 @@ def _sync_today_fortune_cat(*, webnovels_root: Path, tanovel_root: Path, manifes
         series_list.append(new_series)
 
 
+def _sync_direction_of_love(*, webnovels_root: Path, tanovel_root: Path, manifest: dict) -> None:
+    src_root = webnovels_root / "01_The_Direction_of_Love"
+    out_root = tanovel_root / "series" / "direction_of_love"
+
+    covers = {
+        "kr": src_root / "00.jpg",
+        "en": src_root / "00.en.jpg",
+        "ja": src_root / "00.ja.jpg",
+    }
+    for locale, cover_src in covers.items():
+        _convert_cover(src=cover_src, dest=out_root / locale / "cover_720.webp")
+
+    drafts = {
+        "kr": src_root / "Drafts.kr",
+        "en": src_root / "Drafts.en",
+        "ja": src_root / "Drafts.ja",
+    }
+    patterns: dict[Locale, re.Pattern[str]] = {
+        "kr": re.compile(r"^연애의_정방향_(\d+)화(?:_완)?\.txt$"),
+        "en": re.compile(r"^The_Direction_of_Love_Ep(\d+)\.txt$"),
+        "ja": re.compile(r"^The_Direction_of_Love_Ep(\d+)_JA\.txt$"),
+    }
+
+    files_by_locale = {
+        locale: _collect_numbered_files(directory=dir_path, pattern=patterns[locale])
+        for locale, dir_path in drafts.items()
+    }
+    for locale in ("kr", "en", "ja"):
+        if len(files_by_locale[locale]) != 30:
+            raise RuntimeError(f"direction_of_love({locale}) expected 30 files, got {len(files_by_locale[locale])}")
+
+    chapters_out = {
+        "kr": out_root / "chapters" / "kr",
+        "en": out_root / "chapters" / "en",
+        "ja": out_root / "chapters" / "ja",
+    }
+    for p in chapters_out.values():
+        p.mkdir(parents=True, exist_ok=True)
+
+    titles_by_chid: dict[str, dict[str, str]] = {}
+    for episode in range(1, 31):
+        ch_id = f"ch{episode:02d}"
+        titles_by_chid[ch_id] = {}
+        for locale in ("kr", "en", "ja"):
+            src_path = files_by_locale[locale][episode]
+            title, body = _extract_title_and_body(_read_text(src_path))
+            titles_by_chid[ch_id][locale] = _normalize_title_for_manifest(
+                series_id="direction_of_love",
+                locale=locale,
+                raw_title=title,
+            )
+            (chapters_out[locale] / f"{ch_id}.txt").write_text(body, encoding="utf-8", newline="\n")
+
+    series_list = manifest.get("series")
+    if not isinstance(series_list, list):
+        raise RuntimeError("manifest.series must be a list")
+
+    series = next((s for s in series_list if isinstance(s, dict) and s.get("id") == "direction_of_love"), None)
+    if not isinstance(series, dict):
+        raise RuntimeError("direction_of_love series not found in manifest")
+
+    chapters = series.get("chapters")
+    if not isinstance(chapters, list):
+        raise RuntimeError("direction_of_love.chapters must be a list")
+
+    for chapter in chapters:
+        if not isinstance(chapter, dict):
+            continue
+        ch_id = chapter.get("id")
+        if not isinstance(ch_id, str):
+            continue
+        titles = titles_by_chid.get(ch_id)
+        if not titles:
+            continue
+        titles_obj = chapter.get("titles")
+        if not isinstance(titles_obj, dict):
+            titles_obj = {}
+            chapter["titles"] = titles_obj
+        titles_obj["en"] = titles["en"]
+        titles_obj["ja"] = titles["ja"]
+
+
+def _sync_midnight_counseling(*, webnovels_root: Path, tanovel_root: Path, manifest: dict) -> None:
+    src_root = webnovels_root / "02_Midnight_Counseling"
+    out_root = tanovel_root / "series" / "midnight_counseling"
+
+    covers = {
+        "kr": src_root / "00.jpg",
+        "en": src_root / "00.en.jpg",
+        "ja": src_root / "00.ja.jpg",
+    }
+    for locale, cover_src in covers.items():
+        _convert_cover(src=cover_src, dest=out_root / locale / "cover_720.webp")
+
+    drafts = {
+        "kr": src_root / "Drafts.kr",
+        "en": src_root / "Drafts.en",
+        "ja": src_root / "Drafts.ja",
+    }
+    patterns: dict[Locale, re.Pattern[str]] = {
+        "kr": re.compile(r"^밤_12시의_상담소_(\d+)화\.txt$"),
+        "en": re.compile(r"^Midnight_Counseling_Ep(\d+)_EN\.txt$"),
+        "ja": re.compile(r"^Midnight_Counseling_Ep(\d+)_JA\.txt$"),
+    }
+
+    files_by_locale = {
+        locale: _collect_numbered_files(directory=dir_path, pattern=patterns[locale])
+        for locale, dir_path in drafts.items()
+    }
+    for locale in ("kr", "en", "ja"):
+        if len(files_by_locale[locale]) != 30:
+            raise RuntimeError(f"midnight_counseling({locale}) expected 30 files, got {len(files_by_locale[locale])}")
+
+    chapters_out = {
+        "kr": out_root / "chapters" / "kr",
+        "en": out_root / "chapters" / "en",
+        "ja": out_root / "chapters" / "ja",
+    }
+    for p in chapters_out.values():
+        p.mkdir(parents=True, exist_ok=True)
+
+    titles_by_chid: dict[str, dict[str, str]] = {}
+    for episode in range(1, 31):
+        ch_id = f"ch{episode:02d}"
+        titles_by_chid[ch_id] = {}
+        for locale in ("kr", "en", "ja"):
+            src_path = files_by_locale[locale][episode]
+            title, body = _extract_title_and_body(_read_text(src_path))
+            titles_by_chid[ch_id][locale] = _normalize_title_for_manifest(
+                series_id="midnight_counseling",
+                locale=locale,
+                raw_title=title,
+            )
+            (chapters_out[locale] / f"{ch_id}.txt").write_text(body, encoding="utf-8", newline="\n")
+
+    series_list = manifest.get("series")
+    if not isinstance(series_list, list):
+        raise RuntimeError("manifest.series must be a list")
+
+    series = next((s for s in series_list if isinstance(s, dict) and s.get("id") == "midnight_counseling"), None)
+    if not isinstance(series, dict):
+        raise RuntimeError("midnight_counseling series not found in manifest")
+
+    series["titles"] = {
+        "kr": "밤 12시의 상담소",
+        "en": "Midnight Counseling",
+        "ja": "深夜12時の相談所",
+    }
+    series["genres"] = {
+        "kr": "#힐링/미스터리",
+        "en": "#Healing/Mystery",
+        "ja": "#癒し/ミステリー",
+    }
+    series["descriptions"] = {
+        "kr": "당신의 악몽을 팝니다. 밤 12시, 세상에서 가장 수상하고 따뜻한 상담소가 문을 엽니다.",
+        "en": "We buy your nightmares. At midnight, the warmest—and most suspicious—counseling office in the world opens its doors.",
+        "ja": "あなたの悪夢を買い取ります。深夜12時、世界で一番怪しくて温かい相談所が開きます。",
+    }
+
+    chapters = series.get("chapters")
+    if not isinstance(chapters, list):
+        raise RuntimeError("midnight_counseling.chapters must be a list")
+
+    for chapter in chapters:
+        if not isinstance(chapter, dict):
+            continue
+        ch_id = chapter.get("id")
+        if not isinstance(ch_id, str):
+            continue
+        titles = titles_by_chid.get(ch_id)
+        if not titles:
+            continue
+        titles_obj = chapter.get("titles")
+        if not isinstance(titles_obj, dict):
+            titles_obj = {}
+            chapter["titles"] = titles_obj
+        titles_obj["en"] = titles["en"]
+        titles_obj["ja"] = titles["ja"]
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description="Sync tanovel CDN assets from WebNovels sources.")
     parser.add_argument(
@@ -255,7 +435,7 @@ def main() -> int:
     parser.add_argument(
         "--series",
         action="append",
-        choices=["today_fortune_cat"],
+        choices=["direction_of_love", "midnight_counseling", "today_fortune_cat"],
         help="Series to sync (repeatable). If omitted, sync all supported series.",
     )
 
@@ -268,7 +448,11 @@ def main() -> int:
 
     manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
 
-    requested = set(args.series or ["today_fortune_cat"])
+    requested = set(args.series or ["direction_of_love", "midnight_counseling", "today_fortune_cat"])
+    if "direction_of_love" in requested:
+        _sync_direction_of_love(webnovels_root=webnovels_root, tanovel_root=tanovel_root, manifest=manifest)
+    if "midnight_counseling" in requested:
+        _sync_midnight_counseling(webnovels_root=webnovels_root, tanovel_root=tanovel_root, manifest=manifest)
     if "today_fortune_cat" in requested:
         _sync_today_fortune_cat(webnovels_root=webnovels_root, tanovel_root=tanovel_root, manifest=manifest)
 
@@ -282,4 +466,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-
