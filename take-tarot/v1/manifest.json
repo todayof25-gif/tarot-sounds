@@ -286,6 +286,26 @@
           "그 사람의 행동 하나하나에 의미 부여하는 분",
           "나한테 관심이 있는 건지 헷갈리는 분",
           "먼저 다가가기 두려운 분"
+        ],
+        "en": [
+          "People who overanalyze their crush's every move",
+          "People unsure if they are interested in you",
+          "People afraid to make the first move"
+        ],
+        "ja": [
+          "あの人の行動一つ一つに意味を見出してしまう方",
+          "私に気があるのか分からなくてモヤモヤしている方",
+          "自分からアプローチするのが怖い方"
+        ],
+        "fr": [
+          "Ceux qui surinterprètent chaque geste de l'autre",
+          "Ceux qui ne savent pas s'ils l'intéressent vraiment",
+          "Ceux qui ont peur de faire le premier pas"
+        ],
+        "id": [
+          "Kamu yang selalu memikirkan arti di balik setiap tindakannya",
+          "Kamu yang bingung apakah dia tertarik padamu",
+          "Kamu yang takut untuk mendekati duluan"
         ]
       }
     },
@@ -321,6 +341,26 @@
           "우리가 정말 운명의 짝인지 궁금하신 분",
           "자꾸만 그 사람에게 끌리는 이유를 알고 싶은 분",
           "오래가는 연인이 되고 싶은 분"
+        ],
+        "en": [
+          "People wondering if you're truly destined for each other",
+          "People curious why you're constantly drawn to them",
+          "People wanting a long-lasting relationship"
+        ],
+        "ja": [
+          "私たちが本当に運命の相手なのか知りたい方",
+          "なぜかあの人に惹かれてしまう理由を知りたい方",
+          "長続きする恋人関係になりたい方"
+        ],
+        "fr": [
+          "Ceux qui se demandent si vous êtes vraiment âmes sœurs",
+          "Ceux qui veulent savoir pourquoi ils sont irrésistiblement attirés",
+          "Ceux qui veulent une relation durable"
+        ],
+        "id": [
+          "Kamu yang penasaran apakah kalian benar-benar berjodoh",
+          "Kamu yang ingin tahu alasan kenapa selalu tertarik padanya",
+          "Kamu yang ingin hubungan langgeng"
         ]
       }
     },
@@ -356,6 +396,26 @@
           "상대가 지금 바쁠까 봐 연락을 망설이는 분",
           "연락했다가 읽씹 당할까 두려운 분",
           "타이밍만 잘 잡으면 관계가 바뀔 것 같은 분"
+        ],
+        "en": [
+          "People hesitating to text, worried they might be busy",
+          "People afraid of being left on read",
+          "People feeling a well-timed text could change everything"
+        ],
+        "ja": [
+          "相手が忙しいかもと連絡をためらっている方",
+          "既読スルーされるのが怖くて連絡できない方",
+          "タイミングさえ合えば関係が変わる気がする方"
+        ],
+        "fr": [
+          "Ceux qui hésitent à envoyer un message de peur de déranger",
+          "Ceux qui ont peur d'être laissés en \"vu\"",
+          "Ceux qui sentent que le bon timing pourrait tout changer"
+        ],
+        "id": [
+          "Kamu yang ragu menghubungi karena takut dia sibuk",
+          "Kamu yang takut pesanmu cuma dibaca tanpa dibalas",
+          "Kamu yang merasa hubungan bisa berubah kalau waktunya pas"
         ]
       }
     },
@@ -391,6 +451,26 @@
           "내가 특별히 매력 없다고 느끼는 분",
           "연애나 대인관계에서 자신감을 찾고 싶은 분",
           "내 장점을 객관적으로 듣고 싶은 분"
+        ],
+        "en": [
+          "People feeling they lack special charm",
+          "People seeking confidence in love and relationships",
+          "People wanting an objective view of their strengths"
+        ],
+        "ja": [
+          "自分にはこれといった魅力がないと感じている方",
+          "恋愛や対人関係で自信を持ちたい方",
+          "自分の長所を客観的に知りたい方"
+        ],
+        "fr": [
+          "Ceux qui ont l'impression de manquer de charme",
+          "Ceux qui veulent gagner en confiance en amour et en société",
+          "Ceux qui veulent connaître objectivement leurs points forts"
+        ],
+        "id": [
+          "Kamu yang merasa tidak punya pesona khusus",
+          "Kamu yang ingin lebih percaya diri dalam cinta dan pergaulan",
+          "Kamu yang ingin tahu kelebihanmu secara objektif"
         ]
       }
     },
@@ -426,6 +506,26 @@
           "연애 공백이 길어져 답답한 분",
           "새로운 사랑이 정말 올지 궁금한 분",
           "다가올 연애를 위해 미리 준비하고 싶은 분"
+        ],
+        "en": [
+          "People frustrated by a long dry spell in dating",
+          "People wondering if new love will ever come",
+          "People wanting to prepare for their next relationship"
+        ],
+        "ja": [
+          "長い間恋人がいなくて焦っている方",
+          "新しい恋が本当に訪れるのか知りたい方",
+          "次の恋のために準備をしておきたい方"
+        ],
+        "fr": [
+          "Ceux frustrés par une longue période de célibat",
+          "Ceux qui se demandent si un nouvel amour viendra vraiment",
+          "Ceux qui veulent se préparer à leur prochaine relation"
+        ],
+        "id": [
+          "Kamu yang jenuh karena sudah lama menjomblo",
+          "Kamu yang bertanya-tanya apakah cinta baru akan datang",
+          "Kamu yang ingin bersiap menyambut cinta berikutnya"
         ]
       }
     },
@@ -461,6 +561,26 @@
           "중요한 프로젝트 앞두고 불안한 분",
           "성공 가능성과 리스크를 알고 싶은 분",
           "결과를 바꾸기 위한 전략이 필요한 분"
+        ],
+        "en": [
+          "People anxious about an upcoming major project",
+          "People wanting to know success probabilities and risks",
+          "People needing a strategy to change the outcome"
+        ],
+        "ja": [
+          "重要なプロジェクトを控えて不安な方",
+          "成功の可能性とリスクを知りたい方",
+          "結果を変えるための戦略が必要な方"
+        ],
+        "fr": [
+          "Ceux anxieux avant un projet important",
+          "Ceux qui veulent connaître les chances de succès et les risques",
+          "Ceux qui ont besoin d'une stratégie pour changer le résultat"
+        ],
+        "id": [
+          "Kamu yang cemas menghadapi proyek penting",
+          "Kamu yang ingin tahu peluang sukses dan risikonya",
+          "Kamu yang butuh strategi untuk mengubah hasil"
         ]
       }
     },
@@ -496,6 +616,26 @@
           "연봉 협상 테이블에 앉기 전 불안한 분",
           "내가 제시할 숫자가 맞는지 고민인 분",
           "협상 전략과 타이밍이 필요한 분"
+        ],
+        "en": [
+          "People nervous before salary negotiations",
+          "People unsure if their asking figure is right",
+          "People needing negotiation strategies and timing"
+        ],
+        "ja": [
+          "年収交渉の席に着くのが不安な方",
+          "提示しようとしている金額が妥当か悩んでいる方",
+          "交渉の戦略とタイミングを知りたい方"
+        ],
+        "fr": [
+          "Ceux nerveux avant une négociation salariale",
+          "Ceux qui ne savent pas si leur demande est juste",
+          "Ceux qui ont besoin de stratégies et du bon timing pour négocier"
+        ],
+        "id": [
+          "Kamu yang gugup sebelum negosiasi gaji",
+          "Kamu yang ragu apakah angka yang diajukan sudah pas",
+          "Kamu yang butuh strategi dan waktu negosiasi yang tepat"
         ]
       }
     },
@@ -531,6 +671,26 @@
           "상사/동료와의 갈등이 고민인 분",
           "직장 내 평판과 관계 흐름이 궁금한 분",
           "스트레스 덜 받는 처세가 필요한 분"
+        ],
+        "en": [
+          "People struggling with conflict with bosses or colleagues",
+          "People curious about their office reputation and relationship dynamics",
+          "People needing social skills to reduce stress"
+        ],
+        "ja": [
+          "上司や同僚との葛藤で悩んでいる方",
+          "職場の評判や人間関係の流れが気になる方",
+          "ストレスを減らすための処世術が必要な方"
+        ],
+        "fr": [
+          "Ceux qui ont des conflits avec leurs patrons ou collègues",
+          "Ceux curieux de leur réputation et des relations au bureau",
+          "Ceux qui ont besoin de savoir-vivre pour réduire leur stress"
+        ],
+        "id": [
+          "Kamu yang pusing dengan konflik atasan/rekan kerja",
+          "Kamu yang penasaran dengan reputasi dan hubungan di kantor",
+          "Kamu yang butuh cara bersikap agar tidak stres"
         ]
       }
     },
@@ -566,6 +726,26 @@
           "아무것도 하기 싫고 무기력한 분",
           "일이 의미 없게 느껴지는 분",
           "회복 방향과 휴식이 필요한 분"
+        ],
+        "en": [
+          "People feeling lethargic and unmotivated",
+          "People feeling their work is meaningless",
+          "People needing direction for recovery and rest"
+        ],
+        "ja": [
+          "何もしたくなくて無気力な方",
+          "仕事に意味を感じられない方",
+          "回復の方向性と休息が必要な方"
+        ],
+        "fr": [
+          "Ceux qui se sentent léthargiques et démotivés",
+          "Ceux qui trouvent leur travail vide de sens",
+          "Ceux qui ont besoin de repos et d'une direction pour récupérer"
+        ],
+        "id": [
+          "Kamu yang merasa malas dan tidak bersemangat",
+          "Kamu yang merasa pekerjaanmu sia-sia",
+          "Kamu yang butuh arah pemulihan dan istirahat"
         ]
       }
     },
@@ -601,6 +781,26 @@
           "부업을 고민하지만 확신이 없는 분",
           "돈이 되는 분야인지 알고 싶은 분",
           "리스크를 줄이고 싶으신 분"
+        ],
+        "en": [
+          "People considering a side hustle but lacking confidence",
+          "People wanting to know if it will differ financially",
+          "People wanting to minimize risks"
+        ],
+        "ja": [
+          "副業を考えているけれど確信が持てない方",
+          "本当に稼げる分野なのか知りたい方",
+          "リスクを最小限に抑えたい方"
+        ],
+        "fr": [
+          "Ceux qui envisagent une activité secondaire sans être sûrs",
+          "Ceux qui veulent savoir si c'est rentable",
+          "Ceux qui veulent minimiser les risques"
+        ],
+        "id": [
+          "Kamu yang ingin bisnis sampingan tapi ragu",
+          "Kamu yang ingin tahu apakah bidang itu menghasilkan uang",
+          "Kamu yang ingin meminimalkan risiko"
         ]
       }
     },
@@ -636,6 +836,26 @@
           "반려동물을 떠나보내고 힘든 시간을 보내는 분",
           "아이가 하늘나라에서 잘 지내는지 궁금하신 분",
           "마지막 인사를 제대로 못한 것 같아 미안한 분"
+        ],
+        "en": [
+          "People grieving the loss of a pet",
+          "People wondering if their pet is happy in heaven",
+          "People feeling guilty about not saying a proper goodbye"
+        ],
+        "ja": [
+          "ペットを亡くして辛い時間を過ごしている方",
+          "あの子が天国で元気にしているか気になる方",
+          "最後の挨拶がきちんとできなかったと悔やんでいる方"
+        ],
+        "fr": [
+          "Ceux qui traversent le deuil d'un animal de compagnie",
+          "Ceux qui se demandent si leur animal est heureux au paradis",
+          "Ceux qui regrettent de ne pas avoir pu dire au revoir correctement"
+        ],
+        "id": [
+          "Kamu yang berduka karena kehilangan hewan peliharaan",
+          "Kamu yang ingin tahu kabar mereka di surga",
+          "Kamu yang merasa bersalah karena tidak sempat berpamitan"
         ]
       }
     },
@@ -671,6 +891,26 @@
           "일에 치여 나를 돌볼 틈이 없는 분",
           "머릿속이 복잡해서 쉼이 필요한 분",
           "오늘 하루 고생한 나에게 칭찬 한마디 해주고 싶은 분"
+        ],
+        "en": [
+          "People too overwhelmed by work to care for themselves",
+          "People needing rest for a cluttered mind",
+          "People wanting to praise themselves for getting through the day"
+        ],
+        "ja": [
+          "仕事に追われて自分をケアする余裕がない方",
+          "頭の中がごちゃごちゃで休息が必要な方",
+          "今日一日頑張った自分を褒めてあげたい方"
+        ],
+        "fr": [
+          "Ceux trop submergés par le travail pour prendre soin d'eux-mêmes",
+          "Ceux qui ont besoin de repos pour un esprit encombré",
+          "Ceux qui veulent se féliciter d'avoir surmonté la journée"
+        ],
+        "id": [
+          "Kamu yang terlalu sibuk kerja sampai lupa diri sendiri",
+          "Kamu yang butuh istirahat karena pikiran ruwet",
+          "Kamu yang ingin memuji diri sendiri karena sudah berjuang hari ini"
         ]
       }
     },
@@ -706,6 +946,26 @@
           "사소한 일에도 쉽게 예민해지는 분",
           "감정 기복이 심해 힘드신 분",
           "고요한 내면의 평화를 되찾고 싶은 분"
+        ],
+        "en": [
+          "People easily irritated by small things",
+          "People struggling with severe mood swings",
+          "People wanting to regain quiet inner peace"
+        ],
+        "ja": [
+          "些細なことですぐ過敏になってしまう方",
+          "感情の起伏が激しくて辛い方",
+          "静かな心の平和を取り戻したい方"
+        ],
+        "fr": [
+          "Ceux qui s'irritent facilement pour des riens",
+          "Ceux qui souffrent de sautes d'humeur importantes",
+          "Ceux qui veulent retrouver une paix intérieure calme"
+        ],
+        "id": [
+          "Kamu yang mudah sensitif karena hal kecil",
+          "Kamu yang lelah dengan perubahan suasana hati yang ekstrim",
+          "Kamu yang ingin mendapatkan kembali kedamaian batin"
         ]
       }
     },
@@ -741,6 +1001,26 @@
           "가슴이 답답하고 이유 없이 두근거리는 분",
           "나쁜 일이 일어날까 봐 미리 걱정하는 분",
           "밤에 잠 못 이루고 뒤척이는 분"
+        ],
+        "en": [
+          "People feeling chest tightness or palpitations for no reason",
+          "People anticipating bad things happening",
+          "People tossing and turning at night"
+        ],
+        "ja": [
+          "胸が苦しかったり、理由もなくドキドキする方",
+          "悪いことが起きるのではないかと予期不安のある方",
+          "夜眠れずに寝返りを打ってばかりの方"
+        ],
+        "fr": [
+          "Ceux qui ressentent une oppression ou des palpitations sans raison",
+          "Ceux qui s'inquiètent à l'avance d'un malheur potentiel",
+          "Ceux qui se tournent et se retournent la nuit sans trouver le sommeil"
+        ],
+        "id": [
+          "Kamu yang merasa dada sesak atau berdebar tanpa alasan",
+          "Kamu yang cemas kalau-kalau hal buruk terjadi",
+          "Kamu yang susah tidur dan bolak-balik di kasur"
         ]
       }
     },
@@ -776,6 +1056,26 @@
           "우리 집 댕댕이/냥이가 무슨 생각 하는지 궁금한 분",
           "내가 더 잘해줄 수 있는 게 있을지 고민인 분",
           "아이와의 유대감을 더 깊게 느끼고 싶은 분"
+        ],
+        "en": [
+          "People curious about what their dog or cat is thinking",
+          "People wondering if they can do more for them",
+          "People wanting to deepen the bond with their pet"
+        ],
+        "ja": [
+          "うちのワンちゃん・ネコちゃんが何を考えているか知りたい方",
+          "もっと良くしてあげられることはないか悩んでいる方",
+          "ペットとの絆をもっと深く感じたい方"
+        ],
+        "fr": [
+          "Ceux curieux de savoir ce que pense leur chien ou chat",
+          "Ceux qui se demandent s'ils peuvent faire mieux pour eux",
+          "Ceux qui souhaitent approfondir le lien avec leur animal"
+        ],
+        "id": [
+          "Kamu yang penasaran apa yang dipikirkan anjing/kucingmu",
+          "Kamu yang bingung apa bisa merawat mereka lebih baik lagi",
+          "Kamu yang ingin merasakan ikatan lebih dalam dengan hewanmu"
         ]
       }
     }
