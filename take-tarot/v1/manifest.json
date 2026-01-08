@@ -1,0 +1,783 @@
+{
+  "version": 1,
+  "featured": [
+    "content_love_01",
+    "content_work_01",
+    "content_heal_01"
+  ],
+  "personas": [
+    {
+      "id": "persona_rouge",
+      "theme_color_hex": "#D32F2F",
+      "avatar_asset": "assets/avatars/madame_rouge.png",
+      "background_asset": "assets/backgrounds/red_curtain.png",
+      "names": {
+        "kr": "마담 루즈",
+        "en": "Madame Rouge",
+        "ja": "マダム・ルージュ",
+        "fr": "Madame Rouge",
+        "id": "Madame Rouge"
+      },
+      "roles": {
+        "kr": "치명적 연애 컨설턴트",
+        "en": "Fatal Love Consultant",
+        "ja": "致命的な恋愛コンサルタント",
+        "fr": "Consultante en amour fatal",
+        "id": "Konsultan Cinta"
+      },
+      "descriptions": {
+        "kr": "붉은 벨벳 방에서 와인 잔을 들고 있는 매혹적인 타로 마스터. 사랑의 본질을 꿰뚫어 보며, 아픈 진실도 서슴없이 말해주는 '팩트 폭격' 스타일.",
+        "en": "A tarot master in a crimson velvet room. She sees through love and gives sharp, realistic advice. Free with ads.",
+        "ja": "赤いベルベットルームのタロットマスター。愛の本質を見抜き、現実的なアドバイスを伝えます。広告を見ると無料で利用可能です。",
+        "fr": "Une tarologue dans une salle de velours cramoisi. Elle voit clair en amour et donne des conseils francs. Gratuit avec publicité.",
+        "id": "Master tarot di ruangan beludru merah. Ia melihat inti cinta dan memberi saran yang tajam dan realistis. Gratis dengan iklan."
+      }
+    },
+    {
+      "id": "persona_dr_k",
+      "theme_color_hex": "#1A237E",
+      "avatar_asset": "assets/avatars/dr_k.png",
+      "background_asset": "assets/backgrounds/city_night.png",
+      "names": {
+        "kr": "닥터 K",
+        "en": "Dr. K",
+        "ja": "ドクターK",
+        "fr": "Dr. K",
+        "id": "Dr. K"
+      },
+      "roles": {
+        "kr": "냉철한 커리어 분석가",
+        "en": "Cold Career Analyst",
+        "ja": "冷徹なキャリア分析家",
+        "fr": "Analyste de carrière froid",
+        "id": "Analis Karier"
+      },
+      "descriptions": {
+        "kr": "차가운 도시의 고층 빌딩 사무실에 앉아 있는 엘리트 분석가. 감정을 배제하고 오직 데이터와 카드의 흐름으로 성공 확률을 계산한다.",
+        "en": "Calculates odds with data and cards, then delivers practical strategies. Free with ads.",
+        "ja": "データとカードの流れから確率を計算し、実戦的な戦略を提示します。広告を見ると無料で利用可能です。",
+        "fr": "Calcule les probabilites avec les donnees et les cartes, et propose des strategies concretes. Gratuit avec publicité.",
+        "id": "Menghitung peluang dengan data dan kartu, lalu memberi strategi yang praktis. Gratis dengan iklan."
+      }
+    },
+    {
+      "id": "persona_luna",
+      "theme_color_hex": "#7E57C2",
+      "avatar_asset": "assets/avatars/luna_spirit.png",
+      "background_asset": "assets/backgrounds/mystic_forest.png",
+      "names": {
+        "kr": "성령 루나",
+        "en": "Spirit Luna",
+        "ja": "精霊ルナ",
+        "fr": "Spirit Luna",
+        "id": "Spirit Luna"
+      },
+      "roles": {
+        "kr": "영혼의 치유자",
+        "en": "Soul Healer",
+        "ja": "魂の癒し手",
+        "fr": "Guérisseuse d'âme",
+        "id": "Penyembuh Jiwa"
+      },
+      "descriptions": {
+        "kr": "신비로운 숲속에 사는 달의 정령. 몽환적인 분위기 속에서 지친 영혼을 위로하고 안아준다.",
+        "en": "A gentle healer under moonlight, soothing a tired heart. Free with ads.",
+        "ja": "幻想的な月明かりの下で、疲れた心を優しく癒やします。広告を見ると無料で利用可能です。",
+        "fr": "Une soigneuse douce sous la lune, apaisant un coeur fatigue. Gratuit avec publicité.",
+        "id": "Penyembuh lembut di bawah cahaya bulan, menenangkan hati yang lelah. Gratis dengan iklan."
+      }
+    }
+  ],
+  "contents": [
+    {
+      "id": "content_love_01",
+      "category": "Love",
+      "persona_id": "persona_rouge",
+      "price": 0,
+      "rating": 4.8,
+      "view_count": 12050,
+      "tags": [
+        "재회",
+        "연락",
+        "타이밍"
+      ],
+      "thumbnail_asset": "take-tarot/v1/contents/content_love_01/thumb.jpg",
+      "titles": {
+        "kr": "그 사람에게 연락해도 될까?",
+        "en": "Should I contact them?",
+        "ja": "彼に連絡してもいい？",
+        "fr": "Dois-je le contacter ?",
+        "id": "Haruskah aku menghubunginya?"
+      },
+      "subtitles": {
+        "kr": "마담 루즈의 시크릿 조언",
+        "en": "Madame Rouge's Secret Advice",
+        "ja": "マダム・ルージュの秘密の助言",
+        "fr": "Conseil secret de Mme Rouge",
+        "id": "Saran Rahasia Madame Rouge"
+      },
+      "recommendations": {
+        "kr": [
+          "헤어진 연인의 속마음이 궁금하신 분",
+          "먼저 연락해도 될지 자존심 싸움 중인 분",
+          "우리가 진짜 끝인지 확인하고 싶은 분"
+        ],
+        "en": [
+          "Curious about ex's feelings",
+          "Struggling with pride",
+          "Want closure"
+        ],
+        "ja": [
+          "元恋人の本音が知りたい",
+          "プライドが邪魔してる",
+          "本当に終わりか確かめたい"
+        ],
+        "fr": [
+          "Curieux des sentiments de l'ex",
+          "Lutte d'orgueil",
+          "Veut confirmer la fin"
+        ],
+        "id": [
+          "Penasaran perasaan mantan",
+          "Gengsi menghubungi duluan",
+          "Ingin kepastian akhir"
+        ]
+      }
+    },
+    {
+      "id": "content_work_01",
+      "category": "Career",
+      "persona_id": "persona_dr_k",
+      "price": 50,
+      "rating": 4.9,
+      "view_count": 5400,
+      "tags": [
+        "이직",
+        "연봉",
+        "성공"
+      ],
+      "thumbnail_asset": "take-tarot/v1/contents/content_work_01/thumb.jpg",
+      "titles": {
+        "kr": "이직할까, 버틸까?",
+        "en": "Change jobs or stay?",
+        "ja": "転職すべき？それとも留まるべき？",
+        "fr": "Changer de travail ou rester ?",
+        "id": "Pindah kerja atau bertahan?"
+      },
+      "subtitles": {
+        "kr": "닥터 K의 커리어 분석",
+        "en": "Dr. K's Career Analysis",
+        "ja": "ドクターKのキャリア分析",
+        "fr": "Analyse de carrière du Dr K",
+        "id": "Analisis Karir Dr. K"
+      },
+      "recommendations": {
+        "kr": [
+          "지금 회사가 내 가치를 몰라준다고 느끼는 분",
+          "이직 시장에서 나의 위치가 궁금하신 분",
+          "연봉 협상 전략이 필요하신 분"
+        ],
+        "en": [
+          "Undervalued at work",
+          "Curious about market value",
+          "Need negotiation strategy"
+        ],
+        "ja": [
+          "評価に不満",
+          "市場価値が知りたい",
+          "交渉戦略が必要"
+        ],
+        "fr": [
+          "Sous-évalué au travail",
+          "Valeur sur le marché",
+          "Stratégie de négo"
+        ],
+        "id": [
+          "Kurang dihargai",
+          "Nilai pasar",
+          "Butuh strategi negosiasi"
+        ]
+      }
+    },
+    {
+      "id": "content_heal_01",
+      "category": "Healing",
+      "persona_id": "persona_luna",
+      "price": 0,
+      "rating": 4.7,
+      "view_count": 8900,
+      "tags": [
+        "힐링",
+        "불면증",
+        "위로"
+      ],
+      "thumbnail_asset": "take-tarot/v1/contents/content_heal_01/thumb.jpg",
+      "titles": {
+        "kr": "오늘 밤, 위로가 필요해",
+        "en": "I need comfort tonight.",
+        "ja": "今夜、慰めが必要。",
+        "fr": "Besoin de réconfort ce soir.",
+        "id": "Butuh penghiburan malam ini."
+      },
+      "subtitles": {
+        "kr": "루나의 달빛 치유",
+        "en": "Luna's Moonlight Healing",
+        "ja": "ルナの月光の癒し",
+        "fr": "Guérison au clair de lune",
+        "id": "Penyembuhan Cahaya Bulan"
+      },
+      "recommendations": {
+        "kr": [
+          "오늘 하루 유난히 힘들고 지치신 분",
+          "누군가에게 내 마음을 털어놓고 싶은 분",
+          "따뜻한 위로와 응원이 필요하신 분"
+        ],
+        "en": [
+          "Had a hard day",
+          "Need someone to talk to",
+          "Need warm support"
+        ],
+        "ja": [
+          "辛い一日だった",
+          "話を聞いてほしい",
+          "温かい応援が必要"
+        ],
+        "fr": [
+          "Journée difficile",
+          "Besoin de parler",
+          "Besoin de soutien"
+        ],
+        "id": [
+          "Hari yang berat",
+          "Butuh teman curhat",
+          "Butuh dukungan hangat"
+        ]
+      }
+    },
+    {
+      "id": "content_love_02",
+      "category": "Love",
+      "persona_id": "persona_rouge",
+      "price": 30,
+      "rating": 4.9,
+      "view_count": 21000,
+      "tags": [
+        "속마음",
+        "썸",
+        "짝사랑"
+      ],
+      "thumbnail_asset": "take-tarot/v1/contents/content_love_02/thumb.jpg",
+      "titles": {
+        "kr": "그 사람, 나를 어떻게 생각할까?",
+        "en": "What do they think of me?",
+        "ja": "あの人は私のことどう思ってる？",
+        "fr": "Que pense-t-il de moi ?",
+        "id": "Apa yang dia pikirkan tentangku?"
+      },
+      "subtitles": {
+        "kr": "마담 루즈의 속마음 해킹",
+        "en": "Madame Rouge's Mind Hacking",
+        "ja": "マダム・ルージュの本音ハッキング",
+        "fr": "Piratage mental de Mme Rouge",
+        "id": "Peretas Pikiran Madame Rouge"
+      },
+      "recommendations": {
+        "kr": [
+          "그 사람의 행동 하나하나에 의미 부여하는 분",
+          "나한테 관심이 있는 건지 헷갈리는 분",
+          "먼저 다가가기 두려운 분"
+        ]
+      }
+    },
+    {
+      "id": "content_love_03",
+      "category": "Love",
+      "persona_id": "persona_luna",
+      "price": 50,
+      "rating": 4.8,
+      "view_count": 15400,
+      "tags": [
+        "궁합",
+        "운명",
+        "인연"
+      ],
+      "thumbnail_asset": "take-tarot/v1/contents/content_love_03/thumb.jpg",
+      "titles": {
+        "kr": "우리는 어떤 인연일까?",
+        "en": "What is our connection?",
+        "ja": "私たちはどんな縁？",
+        "fr": "Quel est notre lien ?",
+        "id": "Apa hubungan kita?"
+      },
+      "subtitles": {
+        "kr": "붉은 실의 운명 확인",
+        "en": "Fate of the Red Thread",
+        "ja": "赤い糸の運命確認",
+        "fr": "Destin du fil rouge",
+        "id": "Takdir Benang Merah"
+      },
+      "recommendations": {
+        "kr": [
+          "우리가 정말 운명의 짝인지 궁금하신 분",
+          "자꾸만 그 사람에게 끌리는 이유를 알고 싶은 분",
+          "오래가는 연인이 되고 싶은 분"
+        ]
+      }
+    },
+    {
+      "id": "content_love_04",
+      "category": "Love",
+      "persona_id": "persona_rouge",
+      "price": 30,
+      "rating": 4.6,
+      "view_count": 11200,
+      "tags": [
+        "연락",
+        "타이밍",
+        "재회"
+      ],
+      "thumbnail_asset": "take-tarot/v1/contents/content_love_04/thumb.jpg",
+      "titles": {
+        "kr": "지금 연락하면 받을까?",
+        "en": "Will they answer if I call?",
+        "ja": "今連絡したら出る？",
+        "fr": "Répondra-t-il si j'appelle ?",
+        "id": "Angkat gak kalau ditelepon?"
+      },
+      "subtitles": {
+        "kr": "타이밍의 마법사",
+        "en": "Wizard of Timing",
+        "ja": "タイミングの魔術師",
+        "fr": "Sorcier du Timing",
+        "id": "Penyihir Waktu"
+      },
+      "recommendations": {
+        "kr": [
+          "상대가 지금 바쁠까 봐 연락을 망설이는 분",
+          "연락했다가 읽씹 당할까 두려운 분",
+          "타이밍만 잘 잡으면 관계가 바뀔 것 같은 분"
+        ]
+      }
+    },
+    {
+      "id": "content_self_01",
+      "category": "Self",
+      "persona_id": "persona_luna",
+      "price": 0,
+      "rating": 4.9,
+      "view_count": 9600,
+      "tags": [
+        "매력",
+        "자존감",
+        "성격"
+      ],
+      "thumbnail_asset": "take-tarot/v1/contents/content_self_01/thumb.jpg",
+      "titles": {
+        "kr": "나의 매력 포인트는 뭐지?",
+        "en": "What is my charm point?",
+        "ja": "私の魅力ポイントは？",
+        "fr": "Quel est mon atout ?",
+        "id": "Apa daya tarikku?"
+      },
+      "subtitles": {
+        "kr": "나도 몰랐던 숨은 매력",
+        "en": "Hidden Charms Unknown to Me",
+        "ja": "私も知らなかった隠れた魅力",
+        "fr": "Charmes cachés inconnus",
+        "id": "Pesona tersembunyi"
+      },
+      "recommendations": {
+        "kr": [
+          "내가 특별히 매력 없다고 느끼는 분",
+          "연애나 대인관계에서 자신감을 찾고 싶은 분",
+          "내 장점을 객관적으로 듣고 싶은 분"
+        ]
+      }
+    },
+    {
+      "id": "content_love_05",
+      "category": "Love",
+      "persona_id": "persona_luna",
+      "price": 30,
+      "rating": 4.8,
+      "view_count": 13200,
+      "tags": [
+        "솔로탈출",
+        "새출발",
+        "연애운"
+      ],
+      "thumbnail_asset": "take-tarot/v1/contents/content_love_05/thumb.jpg",
+      "titles": {
+        "kr": "다음 연애는 언제쯤 올까?",
+        "en": "When will my next love come?",
+        "ja": "次の恋はいつ来る？",
+        "fr": "Quand viendra mon prochain amour ?",
+        "id": "Kapan cinta berikutnya datang?"
+      },
+      "subtitles": {
+        "kr": "솔로 탈출 예고편",
+        "en": "Solo Escape Preview",
+        "ja": "ソロ脱出予告編",
+        "fr": "Aperçu évasion solo",
+        "id": "Pratinjau Keluar Jomblo"
+      },
+      "recommendations": {
+        "kr": [
+          "연애 공백이 길어져 답답한 분",
+          "새로운 사랑이 정말 올지 궁금한 분",
+          "다가올 연애를 위해 미리 준비하고 싶은 분"
+        ]
+      }
+    },
+    {
+      "id": "content_career_01",
+      "category": "Career",
+      "persona_id": "persona_dr_k",
+      "price": 50,
+      "rating": 4.7,
+      "view_count": 8300,
+      "tags": [
+        "사업운",
+        "프로젝트",
+        "성공"
+      ],
+      "thumbnail_asset": "take-tarot/v1/contents/content_career_01/thumb.jpg",
+      "titles": {
+        "kr": "이번 프로젝트, 성공할까?",
+        "en": "Will this project succeed?",
+        "ja": "このプロジェクト、成功する？",
+        "fr": "Ce projet réussira-t-il ?",
+        "id": "Apakah proyek ini sukses?"
+      },
+      "subtitles": {
+        "kr": "닥터 K의 승부수 분석",
+        "en": "Dr. K's Winning Analysis",
+        "ja": "ドクターKの勝負手分析",
+        "fr": "Analyse gagnante du Dr K",
+        "id": "Analisis Kemenangan Dr. K"
+      },
+      "recommendations": {
+        "kr": [
+          "중요한 프로젝트 앞두고 불안한 분",
+          "성공 가능성과 리스크를 알고 싶은 분",
+          "결과를 바꾸기 위한 전략이 필요한 분"
+        ]
+      }
+    },
+    {
+      "id": "content_money_01",
+      "category": "Money",
+      "persona_id": "persona_dr_k",
+      "price": 30,
+      "rating": 4.8,
+      "view_count": 6200,
+      "tags": [
+        "연봉",
+        "협상",
+        "금전운"
+      ],
+      "thumbnail_asset": "take-tarot/v1/contents/content_money_01/thumb.jpg",
+      "titles": {
+        "kr": "연봉 협상, 원하는 만큼 받을 수 있을까?",
+        "en": "Can I get the raise I want?",
+        "ja": "年収交渉、希望通りいく？",
+        "fr": "Puis-je obtenir l'augmentation voulue ?",
+        "id": "Bisakah dapat gaji diinginkan?"
+      },
+      "subtitles": {
+        "kr": "닥터 K의 숫자 게임",
+        "en": "Dr. K's Numbers Game",
+        "ja": "ドクターKの数字ゲーム",
+        "fr": "Jeu de nombres du Dr K",
+        "id": "Permainan Angka Dr. K"
+      },
+      "recommendations": {
+        "kr": [
+          "연봉 협상 테이블에 앉기 전 불안한 분",
+          "내가 제시할 숫자가 맞는지 고민인 분",
+          "협상 전략과 타이밍이 필요한 분"
+        ]
+      }
+    },
+    {
+      "id": "content_career_02",
+      "category": "Career",
+      "persona_id": "persona_dr_k",
+      "price": 30,
+      "rating": 4.8,
+      "view_count": 7700,
+      "tags": [
+        "직장생활",
+        "인간관계",
+        "처세술"
+      ],
+      "thumbnail_asset": "take-tarot/v1/contents/content_career_02/thumb.jpg",
+      "titles": {
+        "kr": "직장 내 인간관계, 어떻게 풀까?",
+        "en": "How to solve office conflicts?",
+        "ja": "職場の人間関係、どう解く？",
+        "fr": "Conflits au bureau, comment résoudre ?",
+        "id": "Cara atasi konflik kantor?"
+      },
+      "subtitles": {
+        "kr": "닥터 K의 사내 정치 분석",
+        "en": "Dr. K's Office Politics",
+        "ja": "ドクターKの社内政治分析",
+        "fr": "Politique de bureau du Dr K",
+        "id": "Politik Kantor Dr. K"
+      },
+      "recommendations": {
+        "kr": [
+          "상사/동료와의 갈등이 고민인 분",
+          "직장 내 평판과 관계 흐름이 궁금한 분",
+          "스트레스 덜 받는 처세가 필요한 분"
+        ]
+      }
+    },
+    {
+      "id": "content_career_03",
+      "category": "Career",
+      "persona_id": "persona_dr_k",
+      "price": 0,
+      "rating": 4.9,
+      "view_count": 9800,
+      "tags": [
+        "번아웃",
+        "진로",
+        "방향성"
+      ],
+      "thumbnail_asset": "take-tarot/v1/contents/content_career_03/thumb.jpg",
+      "titles": {
+        "kr": "요즘 왜 이렇게 번아웃일까?",
+        "en": "Why am I so burned out?",
+        "ja": "最近なぜこんなにバーンアウト？",
+        "fr": "Pourquoi suis-je épuisé ?",
+        "id": "Kenapa aku burnout begini?"
+      },
+      "subtitles": {
+        "kr": "닥터 K의 멘탈 점검",
+        "en": "Dr. K's Mental Check",
+        "ja": "ドクターKのメンタル点検",
+        "fr": "Bilan mental du Dr K",
+        "id": "Cek Mental Dr. K"
+      },
+      "recommendations": {
+        "kr": [
+          "아무것도 하기 싫고 무기력한 분",
+          "일이 의미 없게 느껴지는 분",
+          "회복 방향과 휴식이 필요한 분"
+        ]
+      }
+    },
+    {
+      "id": "content_money_02",
+      "category": "Money",
+      "persona_id": "persona_dr_k",
+      "price": 30,
+      "rating": 4.7,
+      "view_count": 6400,
+      "tags": [
+        "부업",
+        "투잡",
+        "사업"
+      ],
+      "thumbnail_asset": "take-tarot/v1/contents/content_money_02/thumb.jpg",
+      "titles": {
+        "kr": "부업을 시작하면 돈이 될까?",
+        "en": "Will a side hustle make money?",
+        "ja": "副業を始めたら稼げる？",
+        "fr": "Un travail secondaire rapportera-t-il ?",
+        "id": "Bisnis sampingan hasilkan uang?"
+      },
+      "subtitles": {
+        "kr": "닥터 K의 부업 타로",
+        "en": "Dr. K's Side Job Tarot",
+        "ja": "ドクターKの副業タロット",
+        "fr": "Tarot boulot secondaire",
+        "id": "Tarot Sampingan Dr. K"
+      },
+      "recommendations": {
+        "kr": [
+          "부업을 고민하지만 확신이 없는 분",
+          "돈이 되는 분야인지 알고 싶은 분",
+          "리스크를 줄이고 싶으신 분"
+        ]
+      }
+    },
+    {
+      "id": "content_heal_02",
+      "category": "Healing",
+      "persona_id": "persona_luna",
+      "price": 0,
+      "rating": 4.9,
+      "view_count": 4200,
+      "tags": [
+        "펫로스",
+        "이별",
+        "위로"
+      ],
+      "thumbnail_asset": "take-tarot/v1/contents/content_heal_02/thumb.jpg",
+      "titles": {
+        "kr": "무지개 다리 건너편의 너",
+        "en": "You across the rainbow bridge",
+        "ja": "虹の橋の向こうの君",
+        "fr": "Toi de l'autre côté de l'arc-en-ciel",
+        "id": "Kamu di seberang pelangi"
+      },
+      "subtitles": {
+        "kr": "반려동물과의 영혼 교감",
+        "en": "Soul connection with pets",
+        "ja": "ペットとの魂の交感",
+        "fr": "Connexion d'âme avec animaux",
+        "id": "Koneksi jiwa dengan hewan"
+      },
+      "recommendations": {
+        "kr": [
+          "반려동물을 떠나보내고 힘든 시간을 보내는 분",
+          "아이가 하늘나라에서 잘 지내는지 궁금하신 분",
+          "마지막 인사를 제대로 못한 것 같아 미안한 분"
+        ]
+      }
+    },
+    {
+      "id": "content_heal_03",
+      "category": "Healing",
+      "persona_id": "persona_luna",
+      "price": 0,
+      "rating": 4.8,
+      "view_count": 6800,
+      "tags": [
+        "스트레스",
+        "직장인",
+        "휴식"
+      ],
+      "thumbnail_asset": "take-tarot/v1/contents/content_heal_03/thumb.jpg",
+      "titles": {
+        "kr": "퇴근길, 스트레스 내려놓기",
+        "en": "Letting go of stress on the way home",
+        "ja": "退勤道、ストレスを手放す",
+        "fr": "Lâcher le stress en rentrant",
+        "id": "Melepas stres saat pulang"
+      },
+      "subtitles": {
+        "kr": "오늘 하루도 수고한 당신에게",
+        "en": "To you who worked hard today",
+        "ja": "今日も頑張ったあなたへ",
+        "fr": "À toi qui as travaillé dur",
+        "id": "Untukmu yang bekerja keras"
+      },
+      "recommendations": {
+        "kr": [
+          "일에 치여 나를 돌볼 틈이 없는 분",
+          "머릿속이 복잡해서 쉼이 필요한 분",
+          "오늘 하루 고생한 나에게 칭찬 한마디 해주고 싶은 분"
+        ]
+      }
+    },
+    {
+      "id": "content_heal_04",
+      "category": "Healing",
+      "persona_id": "persona_luna",
+      "price": 30,
+      "rating": 4.9,
+      "view_count": 5500,
+      "tags": [
+        "마음챙김",
+        "평화",
+        "명상"
+      ],
+      "thumbnail_asset": "take-tarot/v1/contents/content_heal_04/thumb.jpg",
+      "titles": {
+        "kr": "내 마음의 평화 찾기",
+        "en": "Finding my inner peace",
+        "ja": "私の心の平和探し",
+        "fr": "Trouver ma paix intérieure",
+        "id": "Menemukan kedamaian batinku"
+      },
+      "subtitles": {
+        "kr": "소란스러운 마음 잠재우기",
+        "en": "Calming a noisy mind",
+        "ja": "騒がしい心を静める",
+        "fr": "Calmer un esprit bruyant",
+        "id": "Menenangkan hati yang riuh"
+      },
+      "recommendations": {
+        "kr": [
+          "사소한 일에도 쉽게 예민해지는 분",
+          "감정 기복이 심해 힘드신 분",
+          "고요한 내면의 평화를 되찾고 싶은 분"
+        ]
+      }
+    },
+    {
+      "id": "content_heal_05",
+      "category": "Healing",
+      "persona_id": "persona_luna",
+      "price": 30,
+      "rating": 4.7,
+      "view_count": 7100,
+      "tags": [
+        "불안",
+        "걱정",
+        "심리"
+      ],
+      "thumbnail_asset": "take-tarot/v1/contents/content_heal_05/thumb.jpg",
+      "titles": {
+        "kr": "이유 없는 불안함, 왜일까?",
+        "en": "Why this baseless anxiety?",
+        "ja": "理由のない不安、なぜ？",
+        "fr": "Pourquoi cette anxiété sans fondement ?",
+        "id": "Kenapa cemas tanpa alasan?"
+      },
+      "subtitles": {
+        "kr": "불안의 그림자 걷어내기",
+        "en": "Clearing shadows of anxiety",
+        "ja": "不安の影を払う",
+        "fr": "Dissiper les ombres de l'anxiété",
+        "id": "Menghapus bayangan kecemasan"
+      },
+      "recommendations": {
+        "kr": [
+          "가슴이 답답하고 이유 없이 두근거리는 분",
+          "나쁜 일이 일어날까 봐 미리 걱정하는 분",
+          "밤에 잠 못 이루고 뒤척이는 분"
+        ]
+      }
+    },
+    {
+      "id": "content_heal_06",
+      "category": "Healing",
+      "persona_id": "persona_luna",
+      "price": 0,
+      "rating": 5.0,
+      "view_count": 9200,
+      "tags": [
+        "반려동물",
+        "속마음",
+        "행복"
+      ],
+      "thumbnail_asset": "take-tarot/v1/contents/content_heal_06/thumb.jpg",
+      "titles": {
+        "kr": "우리반려사랑 교감 타로",
+        "en": "Pet Love Connection Tarot",
+        "ja": "ペット愛の交感タロット",
+        "fr": "Tarot Connexion Amour Animal",
+        "id": "Tarot Koneksi Cinta Hewan"
+      },
+      "subtitles": {
+        "kr": "말 못 하는 우리 아이 속마음",
+        "en": "Inner thoughts of my silent friend",
+        "ja": "言葉の話せないあの子の本音",
+        "fr": "Pensées intimes de mon ami silencieux",
+        "id": "Isi hati temanku yang diam"
+      },
+      "recommendations": {
+        "kr": [
+          "우리 집 댕댕이/냥이가 무슨 생각 하는지 궁금한 분",
+          "내가 더 잘해줄 수 있는 게 있을지 고민인 분",
+          "아이와의 유대감을 더 깊게 느끼고 싶은 분"
+        ]
+      }
+    }
+  ]
+}
