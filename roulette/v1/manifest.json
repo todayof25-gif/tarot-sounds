@@ -79,6 +79,30 @@
         "kr": "소울 룰렛에서 획득 가능한 한정 뱃지입니다.",
         "en": "A limited badge obtainable from Soul Roulette."
       }
+    },
+    {
+      "id": "daily_aura_stone",
+      "type": "coupon",
+      "rarity": "COMMON",
+      "icon": "items/daily_aura_stone/icon.webp"
+    },
+    {
+      "id": "daily_aura_star",
+      "type": "coupon",
+      "rarity": "COMMON",
+      "icon": "items/daily_aura_star/icon.webp"
+    },
+    {
+      "id": "daily_aura_clover",
+      "type": "coupon",
+      "rarity": "COMMON",
+      "icon": "items/daily_aura_clover/icon.webp"
+    },
+    {
+      "id": "daily_aura_moon",
+      "type": "coupon",
+      "rarity": "COMMON",
+      "icon": "items/daily_aura_moon/icon.webp"
     }
   ],
   "pools": {
