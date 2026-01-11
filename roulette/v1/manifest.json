@@ -32,6 +32,12 @@
       "icon": "items/badge_collector/icon.png"
     },
     {
+      "id": "badge_beginner",
+      "type": "badge",
+      "rarity": "COMMON",
+      "icon": "items/badge_beginner/icon.png"
+    },
+    {
       "id": "crystal_pack_medium",
       "type": "crystal",
       "rarity": "LEGENDARY",
