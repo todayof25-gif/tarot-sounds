@@ -6,12 +6,12 @@
       "id": "toon1",
       "isNew": true,
       "isUp": true,
-      "author": "타은우 x 그림작가 J",
+      "author": "타은우 x HelloTarot",
       "genre": "에듀툰/일상",
       "authors": {
-        "kr": "타은우 x 그림작가 J",
-        "en": "Ta Eun-woo x Artist J",
-        "ja": "タ・ウンウ × 作画J"
+        "kr": "타은우 x HelloTarot",
+        "en": "Ta Eun-woo x HelloTarot",
+        "ja": "タ・ウンウ × HelloTarot"
       },
       "genres": {
         "kr": "에듀툰/일상",
@@ -98,12 +98,12 @@
       "id": "toon2",
       "isNew": false,
       "isUp": true,
-      "author": "타리나",
+      "author": "타리나 x HelloTarot",
       "genre": "로맨스",
       "authors": {
-        "kr": "타리나",
-        "en": "Tarina",
-        "ja": "タリナ"
+        "kr": "타리나 x HelloTarot",
+        "en": "Tarina x HelloTarot",
+        "ja": "タリナ × HelloTarot"
       },
       "genres": {
         "kr": "로맨스",
@@ -150,12 +150,12 @@
       "id": "toon3",
       "isNew": false,
       "isUp": false,
-      "author": "세라피나",
+      "author": "세라피나 x HelloTarot",
       "genre": "힐링/미스터리",
       "authors": {
-        "kr": "세라피나",
-        "en": "Seraphina",
-        "ja": "セラフィナ"
+        "kr": "세라피나 x HelloTarot",
+        "en": "Seraphina x HelloTarot",
+        "ja": "セラフィナ × HelloTarot"
       },
       "genres": {
         "kr": "힐링/미스터리",
@@ -202,12 +202,12 @@
       "id": "toon4",
       "isNew": false,
       "isUp": false,
-      "author": "냥냥펀치",
+      "author": "냥냥펀치 x HelloTarot",
       "genre": "개그/동물",
       "authors": {
-        "kr": "냥냥펀치",
-        "en": "NyangNyang Punch",
-        "ja": "ニャンニャンパンチ"
+        "kr": "냥냥펀치 x HelloTarot",
+        "en": "NyangNyang Punch x HelloTarot",
+        "ja": "ニャンニャンパンチ × HelloTarot"
       },
       "genres": {
         "kr": "개그/동물",
