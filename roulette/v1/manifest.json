@@ -35,7 +35,7 @@
       "id": "badge_beginner",
       "type": "badge",
       "rarity": "COMMON",
-      "icon": "items/badge_beginner/icon.png"
+      "icon": "items/badge_beginner/icon.webp"
     },
     {
       "id": "crystal_pack_medium",
