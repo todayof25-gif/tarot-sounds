@@ -9,8 +9,8 @@
     {
       "id": "persona_rouge",
       "theme_color_hex": "#D32F2F",
-      "avatar_asset": "assets/avatars/madame_rouge.png",
-      "background_asset": "assets/backgrounds/red_curtain.png",
+      "avatar_asset": "assets/avatars/madame_rouge.webp",
+      "background_asset": "assets/backgrounds/red_curtain.webp",
       "names": {
         "kr": "마담 루즈",
         "en": "Madame Rouge",
@@ -36,7 +36,7 @@
     {
       "id": "persona_dr_k",
       "theme_color_hex": "#1A237E",
-      "avatar_asset": "assets/avatars/dr_k.png",
+      "avatar_asset": "assets/avatars/dr_k.webp",
       "background_asset": "assets/backgrounds/city_night.png",
       "names": {
         "kr": "닥터 K",
@@ -63,8 +63,8 @@
     {
       "id": "persona_luna",
       "theme_color_hex": "#7E57C2",
-      "avatar_asset": "assets/avatars/luna_spirit.png",
-      "background_asset": "assets/backgrounds/mystic_forest.png",
+      "avatar_asset": "assets/avatars/luna_spirit.webp",
+      "background_asset": "assets/backgrounds/mystic_forest.webp",
       "names": {
         "kr": "성령 루나",
         "en": "Spirit Luna",
