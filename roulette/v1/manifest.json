@@ -10,26 +10,26 @@
       "id": "badge_stargazer",
       "type": "badge",
       "rarity": "EPIC",
-      "icon": "items/badge_stargazer/icon.png"
+      "icon": "items/badge_stargazer/icon.webp"
     },
     {
       "id": "crystal_pack_small",
       "type": "crystal",
       "rarity": "COMMON",
       "value": 30,
-      "icon": "items/crystal_pack_small/icon.png"
+      "icon": "items/crystal_pack_medium/icon.webp"
     },
     {
       "id": "coupon_50_off",
       "type": "coupon",
       "rarity": "COMMON",
-      "icon": "items/coupon_50_off/icon.png"
+      "icon": "items/coupon_50_off/icon.webp"
     },
     {
       "id": "badge_collector",
       "type": "badge",
       "rarity": "RARE",
-      "icon": "items/badge_collector/icon.png"
+      "icon": "items/badge_collector/icon.webp"
     },
     {
       "id": "badge_beginner",
@@ -42,13 +42,13 @@
       "type": "crystal",
       "rarity": "LEGENDARY",
       "value": 100,
-      "icon": "items/crystal_pack_medium/icon.png"
+      "icon": "items/crystal_pack_medium/icon.webp"
     },
     {
       "id": "coupon_arcana_premium_card",
       "type": "coupon",
       "rarity": "EPIC",
-      "icon": "items/coupon_arcana_premium_card/icon.jpg",
+      "icon": "items/coupon_arcana_premium_card/icon.webp",
       "names": {
         "kr": "프리미엄 덱 해금권",
         "en": "Premium Deck Unlock"
@@ -62,7 +62,7 @@
       "id": "coupon_magic_potion",
       "type": "coupon",
       "rarity": "RARE",
-      "icon": "items/coupon_magic_potion/icon.png",
+      "icon": "items/coupon_magic_potion/icon.webp",
       "names": {
         "kr": "마법의 포션",
         "en": "Magic Potion"
@@ -76,7 +76,7 @@
       "id": "badge_heart",
       "type": "badge",
       "rarity": "EPIC",
-      "icon": "items/badge_heart/icon.png",
+      "icon": "items/badge_heart/icon.webp",
       "names": {
         "kr": "하트 수호자",
         "en": "Heart Guardian"
