@@ -10,8 +10,8 @@
       "cutCount": 10,
       "titles": {
         "kr": "그 사람의 진짜 속마음, 나를 어떻게 생각할까?",
-        "en": "그 사람의 진짜 속마음, 나를 어떻게 생각할까?",
-        "ja": "그 사람의 진짜 속마음, 나를 어떻게 생각할까?"
+        "en": "What are their true feelings? What do they really think of me?",
+        "ja": "あの人の本当の気持ち、私のことをどう思ってる？"
       }
     },
     {
@@ -22,8 +22,8 @@
       "cutCount": 9,
       "titles": {
         "kr": "다시 전 연인한테 연락이 올까요?",
-        "en": "다시 전 연인한테 연락이 올까요?",
-        "ja": "다시 전 연인한테 연락이 올까요?"
+        "en": "Will my ex-lover contact me again?",
+        "ja": "別れたあの人から連絡は来る？"
       }
     },
     {
@@ -33,9 +33,9 @@
       "interestCount": 66800,
       "cutCount": 8,
       "titles": {
-        "kr": "2026년 새로 찾아올 인연이 있을까?",
-        "en": "2026년 새로 찾아올 인연이 있을까?",
-        "ja": "2026년 새로 찾아올 인연이 있을까?"
+        "kr": "올 해 새로 찾아올 인연이 있을까?",
+        "en": "Will I meet someone new this year?",
+        "ja": "今年、新しい出会いはある？"
       }
     }
   ]

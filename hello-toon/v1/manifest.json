@@ -98,7 +98,7 @@
     {
       "id": "toon2",
       "isNew": false,
-      "isUp": true,
+      "isUp": false,
       "availability": { "status": "coming_soon" },
       "author": "타리나 x HelloTarot",
       "genre": "로맨스",
