@@ -6,6 +6,7 @@
       "id": "toon1",
       "isNew": true,
       "isUp": true,
+      "availability": { "status": "released" },
       "author": "타은우 x HelloTarot",
       "genre": "에듀툰/일상",
       "authors": {
@@ -98,6 +99,7 @@
       "id": "toon2",
       "isNew": false,
       "isUp": true,
+      "availability": { "status": "coming_soon" },
       "author": "타리나 x HelloTarot",
       "genre": "로맨스",
       "authors": {
@@ -150,6 +152,7 @@
       "id": "toon3",
       "isNew": false,
       "isUp": false,
+      "availability": { "status": "coming_soon" },
       "author": "세라피나 x HelloTarot",
       "genre": "힐링/미스터리",
       "authors": {
@@ -202,6 +205,7 @@
       "id": "toon4",
       "isNew": false,
       "isUp": false,
+      "availability": { "status": "coming_soon" },
       "author": "냥냥펀치 x HelloTarot",
       "genre": "개그/동물",
       "authors": {
