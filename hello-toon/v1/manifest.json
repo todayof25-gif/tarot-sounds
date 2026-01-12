@@ -29,7 +29,7 @@
         "en": "New to tarot? The prickly Ta Eun-woo teaches the basics!",
         "ja": "タロット初心者？ツンなウンウが基礎を教える！"
       },
-      "coverEpisodeId": "ep1",
+      "coverEpisodeId": "cover",
       "episodes": [
         {
           "id": "ep1",
@@ -76,7 +76,7 @@
           "date": "2026.01.01",
           "likes": 980,
           "rating": 9.7,
-          "cutCount": 2,
+          "cutCount": 10,
           "titles": {
             "kr": "2화 - 바보(The Fool) 카드의 비밀",
             "en": "Ep.2 - The Secret of The Fool Card",
@@ -88,9 +88,27 @@
             "ja": "愚者は選ぶ勇気を試す。"
           },
           "epigraphSlots": {
-            "kr": ["한 장의 바보가, 선택의 용기를 시험한다."],
-            "en": ["The Fool tests your courage to choose."],
-            "ja": ["愚者は選ぶ勇気を試す。"]
+            "kr": [
+              "한 장의 바보가, 선택의 용기를 시험한다.",
+              "망설임 끝에 남는 건, 첫걸음의 가벼움이다.",
+              "길이 보이지 않아도, 발끝은 앞으로 향한다.",
+              "규칙을 모를 때, 운명은 더 솔직해진다.",
+              "지금의 모험이, 내일의 답을 만든다."
+            ],
+            "en": [
+              "The Fool tests your courage to choose.",
+              "When you stop hesitating, the path appears.",
+              "Even without a map, your heart knows where to go.",
+              "New beginnings feel light, but they change everything.",
+              "Take the first step; the answer follows."
+            ],
+            "ja": [
+              "愚者は選ぶ勇気を試す。",
+              "迷いをほどくと、道が現れる。",
+              "地図がなくても、心は行き先を知っている。",
+              "軽い一歩が、運命を大きく動かす。",
+              "まず踏み出せば、答えはついてくる。"
+            ]
           }
         }
       ]
