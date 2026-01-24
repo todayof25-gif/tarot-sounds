@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "banners": [
+    {
+      "id": "kakao_channel_friend_add_v1",
+      "enabled": true,
+      "priority": 100,
+      "dismiss_days": 7,
+      "locales": ["kr"],
+      "image_url": "assets/images/promos/kakao_channel_friend_add.jpg",
+      "action_type": "kakao_channel_chat",
+      "titles": {
+        "kr": "안녕타로 카톡 고객문의"
+      },
+      "subtitles": {
+        "kr": "앱 문의는 채널로 편하게 물어보세요."
+      },
+      "cta_labels": {
+        "kr": "확인하기"
+      }
+    }
+  ]
+}
+
