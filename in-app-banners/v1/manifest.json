@@ -27,7 +27,7 @@
     {
       "id": "kakao_channel_friend_add_v1",
       "enabled": true,
-      "priority": 100,
+      "priority": 2000,
       "dismiss_days": 7,
       "locales": [
         "kr"
