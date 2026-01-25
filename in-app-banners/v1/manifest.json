@@ -9,6 +9,9 @@
       "locales": [
         "kr"
       ],
+      "stores": [
+        "google_play"
+      ],
       "image_url": "https://www.aeipet.com/in-app-banners/v1/images/payment_error.jpg",
       "action_type": "kakao_channel_chat",
       "titles": {
