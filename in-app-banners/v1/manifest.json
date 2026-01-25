@@ -2,11 +2,33 @@
   "version": 1,
   "banners": [
     {
+      "id": "payment_error_notice_v1",
+      "enabled": true,
+      "priority": 1000,
+      "dismiss_days": 7,
+      "locales": [
+        "kr"
+      ],
+      "image_url": "https://www.aeipet.com/in-app-banners/v1/images/payment_error.jpg",
+      "action_type": "kakao_channel_chat",
+      "titles": {
+        "kr": "결제 관련 공지안내"
+      },
+      "subtitles": {
+        "kr": "현재 결제에 오류가 발생하고 있습니다. 문제가 해결되면 다시 알려드리겠습니다. 앱 사용중 문의가 있다면 언제든지 카카오톡으로 문의주시기 바랍니다."
+      },
+      "cta_labels": {
+        "kr": "확인하기"
+      }
+    },
+    {
       "id": "kakao_channel_friend_add_v1",
       "enabled": true,
       "priority": 100,
       "dismiss_days": 7,
-      "locales": ["kr"],
+      "locales": [
+        "kr"
+      ],
       "image_url": "assets/images/promos/kakao_channel_friend_add.jpg",
       "action_type": "kakao_channel_chat",
       "titles": {
@@ -21,4 +43,3 @@
     }
   ]
 }
-
