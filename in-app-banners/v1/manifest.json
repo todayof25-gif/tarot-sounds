@@ -43,6 +43,27 @@
       "cta_labels": {
         "kr": "확인하기"
       }
+    },
+    {
+      "id": "coupang_popular_v1",
+      "enabled": true,
+      "priority": 1500,
+      "dismiss_days": 7,
+      "locales": [
+        "kr"
+      ],
+      "image_url": "https://www.aeipet.com/in-app-banners/v1/images/coupang.webp",
+      "action_type": "affiliate_unlock_offer",
+      "action_offer_id": "coupang",
+      "titles": {
+        "kr": "쿠팡 인기상품 보러가기"
+      },
+      "subtitles": {
+        "kr": "쿠팡 인기상품을 빠르게 구경할 수 있어요."
+      },
+      "cta_labels": {
+        "kr": "보러가기"
+      }
     }
   ]
 }
