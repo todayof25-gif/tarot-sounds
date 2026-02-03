@@ -25,23 +25,34 @@
       }
     },
     {
-      "id": "kakao_channel_friend_add_v1",
+      "id": "support_team_profile_v1",
       "enabled": true,
-      "priority": 2000,
+      "priority": 3000,
       "dismiss_days": 7,
-      "locales": [
-        "kr"
-      ],
-      "image_url": "assets/images/promos/kakao_channel_friend_add.jpg",
-      "action_type": "kakao_channel_chat",
+      "locales": [],
+      "stores": [],
+      "image_url": "assets/images/appicon.png",
+      "action_type": "support_team_profile",
       "titles": {
-        "kr": "안녕타로 카톡 고객문의"
+        "kr": "안녕타로 고객문의",
+        "en": "HelloTarot Support",
+        "ja": "HelloTarot お問い合わせ",
+        "fr": "Assistance HelloTarot",
+        "id": "Bantuan HelloTarot"
       },
       "subtitles": {
-        "kr": "앱 문의는 채널로 편하게 물어보세요."
+        "kr": "앱 문의는 안녕타로팀에게 편하게 남겨주세요.",
+        "en": "Questions? Message the HelloTarot Team.",
+        "ja": "ご質問はHelloTarotチームへ。お気軽にどうぞ。",
+        "fr": "Une question ? Contactez l’équipe HelloTarot.",
+        "id": "Ada pertanyaan? Hubungi tim HelloTarot."
       },
       "cta_labels": {
-        "kr": "확인하기"
+        "kr": "문의하기",
+        "en": "Contact",
+        "ja": "問い合わせる",
+        "fr": "Contacter",
+        "id": "Hubungi"
       }
     },
     {
