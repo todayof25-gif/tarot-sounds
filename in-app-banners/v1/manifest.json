@@ -63,6 +63,11 @@
       "locales": [
         "kr"
       ],
+      "stores": [
+        "google_play",
+        "one_store",
+        "app_store"
+      ],
       "image_url": "https://www.aeipet.com/in-app-banners/v1/images/coupang.webp",
       "action_type": "affiliate_unlock_offer",
       "action_offer_id": "coupang",
