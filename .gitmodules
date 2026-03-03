@@ -1,0 +1,3 @@
+[submodule "hello-quote"]
+	path = hello-quote
+	url = https://github.com/hellotarot/hello-quote-content.git
