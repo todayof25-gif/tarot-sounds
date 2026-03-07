@@ -16,21 +16,24 @@
         "en": "Madame Rouge",
         "ja": "マダム・ルージュ",
         "fr": "Madame Rouge",
-        "id": "Madame Rouge"
+        "id": "Madame Rouge",
+        "es-419": "Madame Rouge"
       },
       "roles": {
         "kr": "치명적 연애 컨설턴트",
         "en": "Fatal Love Consultant",
         "ja": "致命的な恋愛コンサルタント",
         "fr": "Consultante en amour fatal",
-        "id": "Konsultan Cinta"
+        "id": "Konsultan Cinta",
+        "es-419": "Consultora fatal del amor"
       },
       "descriptions": {
         "kr": "붉은 벨벳 방에서 와인 잔을 들고 있는 매혹적인 타로 마스터. 사랑의 본질을 꿰뚫어 보며, 아픈 진실도 서슴없이 말해주는 '팩트 폭격' 스타일.",
         "en": "A tarot master in a crimson velvet room. She sees through love and gives sharp, realistic advice. Free with ads.",
         "ja": "赤いベルベットルームのタロットマスター。愛の本質を見抜き、現実的なアドバイスを伝えます。広告を見ると無料で利用可能です。",
         "fr": "Une tarologue dans une salle de velours cramoisi. Elle voit clair en amour et donne des conseils francs. Gratuit avec publicité.",
-        "id": "Master tarot di ruangan beludru merah. Ia melihat inti cinta dan memberi saran yang tajam dan realistis. Gratis dengan iklan."
+        "id": "Master tarot di ruangan beludru merah. Ia melihat inti cinta dan memberi saran yang tajam dan realistis. Gratis dengan iklan.",
+        "es-419": "Una cautivadora maestra del tarot con una copa de vino en una sala de terciopelo rojo. Ve la esencia del amor con total claridad y te dice incluso las verdades dolorosas sin rodeos."
       }
     },
     {
@@ -43,21 +46,24 @@
         "en": "Dr. K",
         "ja": "ドクターK",
         "fr": "Dr. K",
-        "id": "Dr. K"
+        "id": "Dr. K",
+        "es-419": "Dr. K"
       },
       "roles": {
         "kr": "냉철한 커리어 분석가",
         "en": "Cold Career Analyst",
         "ja": "冷徹なキャリア分析家",
         "fr": "Analyste de carrière froid",
-        "id": "Analis Karier"
+        "id": "Analis Karier",
+        "es-419": "Analista de carrera implacable"
       },
       "descriptions": {
         "kr": "차가운 도시의 고층 빌딩 사무실에 앉아 있는 엘리트 분석가. 감정을 배제하고 오직 데이터와 카드의 흐름으로 성공 확률을 계산한다.",
         "en": "Calculates odds with data and cards, then delivers practical strategies. Free with ads.",
         "ja": "データとカードの流れから確率を計算し、実戦的な戦略を提示します。広告を見ると無料で利用可能です。",
         "fr": "Calcule les probabilites avec les donnees et les cartes, et propose des strategies concretes. Gratuit avec publicité.",
-        "id": "Menghitung peluang dengan data dan kartu, lalu memberi strategi yang praktis. Gratis dengan iklan."
+        "id": "Menghitung peluang dengan data dan kartu, lalu memberi strategi yang praktis. Gratis dengan iklan.",
+        "es-419": "Un analista de élite sentado en una oficina de rascacielos en una ciudad fría. Deja las emociones fuera y calcula las probabilidades de éxito solo con los datos y el flujo de las cartas."
       }
     },
     {
@@ -70,21 +76,24 @@
         "en": "Spirit Luna",
         "ja": "精霊ルナ",
         "fr": "Spirit Luna",
-        "id": "Spirit Luna"
+        "id": "Spirit Luna",
+        "es-419": "Espíritu Luna"
       },
       "roles": {
         "kr": "영혼의 치유자",
         "en": "Soul Healer",
         "ja": "魂の癒し手",
         "fr": "Guérisseuse d'âme",
-        "id": "Penyembuh Jiwa"
+        "id": "Penyembuh Jiwa",
+        "es-419": "Sanadora del alma"
       },
       "descriptions": {
         "kr": "신비로운 숲속에 사는 달의 정령. 몽환적인 분위기 속에서 지친 영혼을 위로하고 안아준다.",
         "en": "A gentle healer under moonlight, soothing a tired heart. Free with ads.",
         "ja": "幻想的な月明かりの下で、疲れた心を優しく癒やします。広告を見ると無料で利用可能です。",
         "fr": "Une soigneuse douce sous la lune, apaisant un coeur fatigue. Gratuit avec publicité.",
-        "id": "Penyembuh lembut di bawah cahaya bulan, menenangkan hati yang lelah. Gratis dengan iklan."
+        "id": "Penyembuh lembut di bawah cahaya bulan, menenangkan hati yang lelah. Gratis dengan iklan.",
+        "es-419": "Un espíritu lunar que habita en un bosque místico. En una atmósfera onírica, consuela y abraza a las almas cansadas."
       }
     }
   ],
@@ -107,14 +116,16 @@
         "en": "Should I contact them?",
         "ja": "彼に連絡してもいい？",
         "fr": "Dois-je le contacter ?",
-        "id": "Haruskah aku menghubunginya?"
+        "id": "Haruskah aku menghubunginya?",
+        "es-419": "¿Debería escribirle?"
       },
       "subtitles": {
         "kr": "마담 루즈의 시크릿 조언",
         "en": "Madame Rouge's Secret Advice",
         "ja": "マダム・ルージュの秘密の助言",
         "fr": "Conseil secret de Mme Rouge",
-        "id": "Saran Rahasia Madame Rouge"
+        "id": "Saran Rahasia Madame Rouge",
+        "es-419": "El consejo secreto de Madame Rouge"
       },
       "recommendations": {
         "kr": [
@@ -141,6 +152,11 @@
           "Penasaran perasaan mantan",
           "Gengsi menghubungi duluan",
           "Ingin kepastian akhir"
+        ],
+        "es-419": [
+          "Quieres saber qué siente en realidad tu ex",
+          "Estás peleando con tu orgullo por no escribir primero",
+          "Quieres confirmar si de verdad ya se terminó"
         ]
       }
     },
@@ -162,14 +178,16 @@
         "en": "Change jobs or stay?",
         "ja": "転職すべき？それとも留まるべき？",
         "fr": "Changer de travail ou rester ?",
-        "id": "Pindah kerja atau bertahan?"
+        "id": "Pindah kerja atau bertahan?",
+        "es-419": "¿Cambio de trabajo o aguanto?"
       },
       "subtitles": {
         "kr": "닥터 K의 커리어 분석",
         "en": "Dr. K's Career Analysis",
         "ja": "ドクターKのキャリア分析",
         "fr": "Analyse de carrière du Dr K",
-        "id": "Analisis Karir Dr. K"
+        "id": "Analisis Karir Dr. K",
+        "es-419": "El análisis profesional del Dr. K"
       },
       "recommendations": {
         "kr": [
@@ -196,6 +214,11 @@
           "Kurang dihargai",
           "Nilai pasar",
           "Butuh strategi negosiasi"
+        ],
+        "es-419": [
+          "Sientes que en tu empresa actual no valoran lo que vales",
+          "Quieres saber cuál es tu posición en el mercado laboral",
+          "Necesitas una estrategia para negociar tu sueldo"
         ]
       }
     },
@@ -217,14 +240,16 @@
         "en": "I need comfort tonight.",
         "ja": "今夜、慰めが必要。",
         "fr": "Besoin de réconfort ce soir.",
-        "id": "Butuh penghiburan malam ini."
+        "id": "Butuh penghiburan malam ini.",
+        "es-419": "Esta noche necesito consuelo"
       },
       "subtitles": {
         "kr": "루나의 달빛 치유",
         "en": "Luna's Moonlight Healing",
         "ja": "ルナの月光の癒し",
         "fr": "Guérison au clair de lune",
-        "id": "Penyembuhan Cahaya Bulan"
+        "id": "Penyembuhan Cahaya Bulan",
+        "es-419": "La sanación a la luz de la luna de Luna"
       },
       "recommendations": {
         "kr": [
@@ -251,6 +276,11 @@
           "Hari yang berat",
           "Butuh teman curhat",
           "Butuh dukungan hangat"
+        ],
+        "es-419": [
+          "Hoy fue un día especialmente duro y agotador",
+          "Quieres abrir tu corazón con alguien",
+          "Necesitas palabras cálidas y ánimo"
         ]
       }
     },
@@ -272,14 +302,16 @@
         "en": "What do they think of me?",
         "ja": "あの人は私のことどう思ってる？",
         "fr": "Que pense-t-il de moi ?",
-        "id": "Apa yang dia pikirkan tentangku?"
+        "id": "Apa yang dia pikirkan tentangku?",
+        "es-419": "¿Qué piensa esa persona de mí?"
       },
       "subtitles": {
         "kr": "마담 루즈의 속마음 해킹",
         "en": "Madame Rouge's Mind Hacking",
         "ja": "マダム・ルージュの本音ハッキング",
         "fr": "Piratage mental de Mme Rouge",
-        "id": "Peretas Pikiran Madame Rouge"
+        "id": "Peretas Pikiran Madame Rouge",
+        "es-419": "Hackeando sus sentimientos con Madame Rouge"
       },
       "recommendations": {
         "kr": [
@@ -306,6 +338,11 @@
           "Kamu yang selalu memikirkan arti di balik setiap tindakannya",
           "Kamu yang bingung apakah dia tertarik padamu",
           "Kamu yang takut untuk mendekati duluan"
+        ],
+        "es-419": [
+          "Le das significado a cada gesto de esa persona",
+          "No sabes si de verdad tiene interés en ti",
+          "Te da miedo dar el primer paso"
         ]
       }
     },
@@ -327,14 +364,16 @@
         "en": "What is our connection?",
         "ja": "私たちはどんな縁？",
         "fr": "Quel est notre lien ?",
-        "id": "Apa hubungan kita?"
+        "id": "Apa hubungan kita?",
+        "es-419": "¿Qué tipo de destino nos une?"
       },
       "subtitles": {
         "kr": "붉은 실의 운명 확인",
         "en": "Fate of the Red Thread",
         "ja": "赤い糸の運命確認",
         "fr": "Destin du fil rouge",
-        "id": "Takdir Benang Merah"
+        "id": "Takdir Benang Merah",
+        "es-419": "Confirma el destino del hilo rojo"
       },
       "recommendations": {
         "kr": [
@@ -361,6 +400,11 @@
           "Kamu yang penasaran apakah kalian benar-benar berjodoh",
           "Kamu yang ingin tahu alasan kenapa selalu tertarik padanya",
           "Kamu yang ingin hubungan langgeng"
+        ],
+        "es-419": [
+          "Quieres saber si de verdad son almas destinadas",
+          "Quieres entender por qué te atrae tanto esa persona",
+          "Quieres construir una relación que dure"
         ]
       }
     },
@@ -382,14 +426,16 @@
         "en": "Will they answer if I call?",
         "ja": "今連絡したら出る？",
         "fr": "Répondra-t-il si j'appelle ?",
-        "id": "Angkat gak kalau ditelepon?"
+        "id": "Angkat gak kalau ditelepon?",
+        "es-419": "Si le escribo ahora, ¿me responderá?"
       },
       "subtitles": {
         "kr": "타이밍의 마법사",
         "en": "Wizard of Timing",
         "ja": "タイミングの魔術師",
         "fr": "Sorcier du Timing",
-        "id": "Penyihir Waktu"
+        "id": "Penyihir Waktu",
+        "es-419": "La magia del momento justo"
       },
       "recommendations": {
         "kr": [
@@ -416,6 +462,11 @@
           "Kamu yang ragu menghubungi karena takut dia sibuk",
           "Kamu yang takut pesanmu cuma dibaca tanpa dibalas",
           "Kamu yang merasa hubungan bisa berubah kalau waktunya pas"
+        ],
+        "es-419": [
+          "Dudas en escribir porque crees que la otra persona puede estar ocupada",
+          "Te da miedo que te deje en visto",
+          "Sientes que, si eliges bien el momento, la relación puede cambiar"
         ]
       }
     },
@@ -437,14 +488,16 @@
         "en": "What is my charm point?",
         "ja": "私の魅力ポイントは？",
         "fr": "Quel est mon atout ?",
-        "id": "Apa daya tarikku?"
+        "id": "Apa daya tarikku?",
+        "es-419": "¿Cuál es mi mayor encanto?"
       },
       "subtitles": {
         "kr": "나도 몰랐던 숨은 매력",
         "en": "Hidden Charms Unknown to Me",
         "ja": "私も知らなかった隠れた魅力",
         "fr": "Charmes cachés inconnus",
-        "id": "Pesona tersembunyi"
+        "id": "Pesona tersembunyi",
+        "es-419": "Ese atractivo oculto que ni tú ves"
       },
       "recommendations": {
         "kr": [
@@ -471,6 +524,11 @@
           "Kamu yang merasa tidak punya pesona khusus",
           "Kamu yang ingin lebih percaya diri dalam cinta dan pergaulan",
           "Kamu yang ingin tahu kelebihanmu secara objektif"
+        ],
+        "es-419": [
+          "Sientes que no tienes nada especialmente atractivo",
+          "Quieres recuperar seguridad en el amor y en tus relaciones",
+          "Quieres escuchar tus fortalezas con objetividad"
         ]
       }
     },
@@ -492,14 +550,16 @@
         "en": "When will my next love come?",
         "ja": "次の恋はいつ来る？",
         "fr": "Quand viendra mon prochain amour ?",
-        "id": "Kapan cinta berikutnya datang?"
+        "id": "Kapan cinta berikutnya datang?",
+        "es-419": "¿Cuándo llegará mi próxima relación?"
       },
       "subtitles": {
         "kr": "솔로 탈출 예고편",
         "en": "Solo Escape Preview",
         "ja": "ソロ脱出予告編",
         "fr": "Aperçu évasion solo",
-        "id": "Pratinjau Keluar Jomblo"
+        "id": "Pratinjau Keluar Jomblo",
+        "es-419": "Avance exclusivo de tu próxima historia de amor"
       },
       "recommendations": {
         "kr": [
@@ -526,6 +586,11 @@
           "Kamu yang jenuh karena sudah lama menjomblo",
           "Kamu yang bertanya-tanya apakah cinta baru akan datang",
           "Kamu yang ingin bersiap menyambut cinta berikutnya"
+        ],
+        "es-419": [
+          "Llevas mucho tiempo sin pareja y ya te desespera",
+          "Quieres saber si de verdad se acerca un nuevo amor",
+          "Quieres prepararte desde ahora para la relación que viene"
         ]
       }
     },
@@ -547,14 +612,16 @@
         "en": "Will this project succeed?",
         "ja": "このプロジェクト、成功する？",
         "fr": "Ce projet réussira-t-il ?",
-        "id": "Apakah proyek ini sukses?"
+        "id": "Apakah proyek ini sukses?",
+        "es-419": "¿Este proyecto va a salir bien?"
       },
       "subtitles": {
         "kr": "닥터 K의 승부수 분석",
         "en": "Dr. K's Winning Analysis",
         "ja": "ドクターKの勝負手分析",
         "fr": "Analyse gagnante du Dr K",
-        "id": "Analisis Kemenangan Dr. K"
+        "id": "Analisis Kemenangan Dr. K",
+        "es-419": "La jugada maestra del Dr. K"
       },
       "recommendations": {
         "kr": [
@@ -581,6 +648,11 @@
           "Kamu yang cemas menghadapi proyek penting",
           "Kamu yang ingin tahu peluang sukses dan risikonya",
           "Kamu yang butuh strategi untuk mengubah hasil"
+        ],
+        "es-419": [
+          "Te sientes nervioso antes de un proyecto importante",
+          "Quieres conocer las probabilidades de éxito y los riesgos",
+          "Necesitas una estrategia para cambiar el resultado a tu favor"
         ]
       }
     },
@@ -602,14 +674,16 @@
         "en": "Can I get the raise I want?",
         "ja": "年収交渉、希望通りいく？",
         "fr": "Puis-je obtenir l'augmentation voulue ?",
-        "id": "Bisakah dapat gaji diinginkan?"
+        "id": "Bisakah dapat gaji diinginkan?",
+        "es-419": "¿Podré conseguir el sueldo que quiero?"
       },
       "subtitles": {
         "kr": "닥터 K의 숫자 게임",
         "en": "Dr. K's Numbers Game",
         "ja": "ドクターKの数字ゲーム",
         "fr": "Jeu de nombres du Dr K",
-        "id": "Permainan Angka Dr. K"
+        "id": "Permainan Angka Dr. K",
+        "es-419": "El juego de números del Dr. K"
       },
       "recommendations": {
         "kr": [
@@ -636,6 +710,11 @@
           "Kamu yang gugup sebelum negosiasi gaji",
           "Kamu yang ragu apakah angka yang diajukan sudah pas",
           "Kamu yang butuh strategi dan waktu negosiasi yang tepat"
+        ],
+        "es-419": [
+          "Te pone nervioso sentarte a negociar tu sueldo",
+          "Dudas si la cifra que piensas pedir es la correcta",
+          "Necesitas estrategia y buen momento para negociar"
         ]
       }
     },
@@ -657,14 +736,16 @@
         "en": "How to solve office conflicts?",
         "ja": "職場の人間関係、どう解く？",
         "fr": "Conflits au bureau, comment résoudre ?",
-        "id": "Cara atasi konflik kantor?"
+        "id": "Cara atasi konflik kantor?",
+        "es-419": "¿Cómo manejo mis relaciones en el trabajo?"
       },
       "subtitles": {
         "kr": "닥터 K의 사내 정치 분석",
         "en": "Dr. K's Office Politics",
         "ja": "ドクターKの社内政治分析",
         "fr": "Politique de bureau du Dr K",
-        "id": "Politik Kantor Dr. K"
+        "id": "Politik Kantor Dr. K",
+        "es-419": "El análisis de política de oficina del Dr. K"
       },
       "recommendations": {
         "kr": [
@@ -691,6 +772,11 @@
           "Kamu yang pusing dengan konflik atasan/rekan kerja",
           "Kamu yang penasaran dengan reputasi dan hubungan di kantor",
           "Kamu yang butuh cara bersikap agar tidak stres"
+        ],
+        "es-419": [
+          "Te preocupan los roces con jefes o compañeros",
+          "Quieres entender cómo va tu reputación y tus vínculos en la oficina",
+          "Necesitas moverte con menos estrés"
         ]
       }
     },
@@ -712,14 +798,16 @@
         "en": "Why am I so burned out?",
         "ja": "最近なぜこんなにバーンアウト？",
         "fr": "Pourquoi suis-je épuisé ?",
-        "id": "Kenapa aku burnout begini?"
+        "id": "Kenapa aku burnout begini?",
+        "es-419": "¿Por qué me siento tan agotado últimamente?"
       },
       "subtitles": {
         "kr": "닥터 K의 멘탈 점검",
         "en": "Dr. K's Mental Check",
         "ja": "ドクターKのメンタル点検",
         "fr": "Bilan mental du Dr K",
-        "id": "Cek Mental Dr. K"
+        "id": "Cek Mental Dr. K",
+        "es-419": "Chequeo mental con el Dr. K"
       },
       "recommendations": {
         "kr": [
@@ -746,6 +834,11 @@
           "Kamu yang merasa malas dan tidak bersemangat",
           "Kamu yang merasa pekerjaanmu sia-sia",
           "Kamu yang butuh arah pemulihan dan istirahat"
+        ],
+        "es-419": [
+          "No tienes ganas de hacer nada y te sientes sin energía",
+          "Sientes que tu trabajo perdió sentido",
+          "Necesitas orientación para recuperarte y descansar"
         ]
       }
     },
@@ -767,14 +860,16 @@
         "en": "Will a side hustle make money?",
         "ja": "副業を始めたら稼げる？",
         "fr": "Un travail secondaire rapportera-t-il ?",
-        "id": "Bisnis sampingan hasilkan uang?"
+        "id": "Bisnis sampingan hasilkan uang?",
+        "es-419": "Si empiezo un ingreso extra, ¿me va a funcionar?"
       },
       "subtitles": {
         "kr": "닥터 K의 부업 타로",
         "en": "Dr. K's Side Job Tarot",
         "ja": "ドクターKの副業タロット",
         "fr": "Tarot boulot secondaire",
-        "id": "Tarot Sampingan Dr. K"
+        "id": "Tarot Sampingan Dr. K",
+        "es-419": "El tarot de ingresos extra del Dr. K"
       },
       "recommendations": {
         "kr": [
@@ -801,6 +896,11 @@
           "Kamu yang ingin bisnis sampingan tapi ragu",
           "Kamu yang ingin tahu apakah bidang itu menghasilkan uang",
           "Kamu yang ingin meminimalkan risiko"
+        ],
+        "es-419": [
+          "Quieres empezar algo extra pero todavía no estás seguro",
+          "Quieres saber si realmente puede darte dinero",
+          "Quieres reducir el riesgo antes de lanzarte"
         ]
       }
     },
@@ -822,14 +922,16 @@
         "en": "You across the rainbow bridge",
         "ja": "虹の橋の向こうの君",
         "fr": "Toi de l'autre côté de l'arc-en-ciel",
-        "id": "Kamu di seberang pelangi"
+        "id": "Kamu di seberang pelangi",
+        "es-419": "Tú, al otro lado del arcoíris"
       },
       "subtitles": {
         "kr": "반려동물과의 영혼 교감",
         "en": "Soul connection with pets",
         "ja": "ペットとの魂の交感",
         "fr": "Connexion d'âme avec animaux",
-        "id": "Koneksi jiwa dengan hewan"
+        "id": "Koneksi jiwa dengan hewan",
+        "es-419": "Conexión del alma con tu mascota"
       },
       "recommendations": {
         "kr": [
@@ -856,6 +958,11 @@
           "Kamu yang berduka karena kehilangan hewan peliharaan",
           "Kamu yang ingin tahu kabar mereka di surga",
           "Kamu yang merasa bersalah karena tidak sempat berpamitan"
+        ],
+        "es-419": [
+          "La partida de tu mascota te tiene pasando días muy duros",
+          "Quieres saber si tu pequeño está bien donde ahora se encuentra",
+          "Sientes culpa por no haberte podido despedir como querías"
         ]
       }
     },
@@ -877,14 +984,16 @@
         "en": "Letting go of stress on the way home",
         "ja": "退勤道、ストレスを手放す",
         "fr": "Lâcher le stress en rentrant",
-        "id": "Melepas stres saat pulang"
+        "id": "Melepas stres saat pulang",
+        "es-419": "Soltar el estrés de camino a casa"
       },
       "subtitles": {
         "kr": "오늘 하루도 수고한 당신에게",
         "en": "To you who worked hard today",
         "ja": "今日も頑張ったあなたへ",
         "fr": "À toi qui as travaillé dur",
-        "id": "Untukmu yang bekerja keras"
+        "id": "Untukmu yang bekerja keras",
+        "es-419": "Para ti, que hoy también lo diste todo"
       },
       "recommendations": {
         "kr": [
@@ -911,6 +1020,11 @@
           "Kamu yang terlalu sibuk kerja sampai lupa diri sendiri",
           "Kamu yang butuh istirahat karena pikiran ruwet",
           "Kamu yang ingin memuji diri sendiri karena sudah berjuang hari ini"
+        ],
+        "es-419": [
+          "El trabajo te deja sin tiempo para cuidarte",
+          "Tienes la cabeza tan llena que necesitas un respiro",
+          "Quieres regalarte unas palabras de reconocimiento por todo lo que hiciste hoy"
         ]
       }
     },
@@ -932,14 +1046,16 @@
         "en": "Finding my inner peace",
         "ja": "私の心の平和探し",
         "fr": "Trouver ma paix intérieure",
-        "id": "Menemukan kedamaian batinku"
+        "id": "Menemukan kedamaian batinku",
+        "es-419": "Encontrar la paz dentro de mí"
       },
       "subtitles": {
         "kr": "소란스러운 마음 잠재우기",
         "en": "Calming a noisy mind",
         "ja": "騒がしい心を静める",
         "fr": "Calmer un esprit bruyant",
-        "id": "Menenangkan hati yang riuh"
+        "id": "Menenangkan hati yang riuh",
+        "es-419": "Calma para una mente agitada"
       },
       "recommendations": {
         "kr": [
@@ -966,6 +1082,11 @@
           "Kamu yang mudah sensitif karena hal kecil",
           "Kamu yang lelah dengan perubahan suasana hati yang ekstrim",
           "Kamu yang ingin mendapatkan kembali kedamaian batin"
+        ],
+        "es-419": [
+          "Te alteras con facilidad incluso por cosas pequeñas",
+          "Te cuesta sostener tus subidas y bajadas emocionales",
+          "Quieres recuperar una paz interior más profunda"
         ]
       }
     },
@@ -987,14 +1108,16 @@
         "en": "Why this baseless anxiety?",
         "ja": "理由のない不安、なぜ？",
         "fr": "Pourquoi cette anxiété sans fondement ?",
-        "id": "Kenapa cemas tanpa alasan?"
+        "id": "Kenapa cemas tanpa alasan?",
+        "es-419": "¿Por qué siento esta ansiedad sin razón?"
       },
       "subtitles": {
         "kr": "불안의 그림자 걷어내기",
         "en": "Clearing shadows of anxiety",
         "ja": "不安の影を払う",
         "fr": "Dissiper les ombres de l'anxiété",
-        "id": "Menghapus bayangan kecemasan"
+        "id": "Menghapus bayangan kecemasan",
+        "es-419": "Apartando la sombra de la ansiedad"
       },
       "recommendations": {
         "kr": [
@@ -1021,6 +1144,11 @@
           "Kamu yang merasa dada sesak atau berdebar tanpa alasan",
           "Kamu yang cemas kalau-kalau hal buruk terjadi",
           "Kamu yang susah tidur dan bolak-balik di kasur"
+        ],
+        "es-419": [
+          "Sientes el pecho apretado y el corazón inquieto sin motivo claro",
+          "Te preocupas de antemano pensando que algo malo va a pasar",
+          "Por las noches no puedes dormir y das vueltas en la cama"
         ]
       }
     },
@@ -1042,14 +1170,16 @@
         "en": "Pet Love Connection Tarot",
         "ja": "ペット愛の交感タロット",
         "fr": "Tarot Connexion Amour Animal",
-        "id": "Tarot Koneksi Cinta Hewan"
+        "id": "Tarot Koneksi Cinta Hewan",
+        "es-419": "Tarot de conexión con mi mascota"
       },
       "subtitles": {
         "kr": "말 못 하는 우리 아이 속마음",
         "en": "Inner thoughts of my silent friend",
         "ja": "言葉の話せないあの子の本音",
         "fr": "Pensées intimes de mon ami silencieux",
-        "id": "Isi hati temanku yang diam"
+        "id": "Isi hati temanku yang diam",
+        "es-419": "Lo que siente tu compañero que no puede hablar"
       },
       "recommendations": {
         "kr": [
@@ -1076,6 +1206,11 @@
           "Kamu yang penasaran apa yang dipikirkan anjing/kucingmu",
           "Kamu yang bingung apa bisa merawat mereka lebih baik lagi",
           "Kamu yang ingin merasakan ikatan lebih dalam dengan hewanmu"
+        ],
+        "es-419": [
+          "Quieres saber qué pasa por la cabeza de tu perrito o gatito",
+          "Te preguntas si hay algo más que podrías hacer por él",
+          "Quieres sentir un vínculo todavía más profundo con tu compañero"
         ]
       }
     }
